@@ -1,13 +1,13 @@
 import './App.css'
 
+import { Navbar } from './components/navbar'
+
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        WM Argentina
-      </h1>
-    </>
+    <div className='w-screen'>
+      <Navbar />
+    </div>
   )
 }
 
