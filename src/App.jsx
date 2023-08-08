@@ -1,13 +1,13 @@
 import './App.css'
 
-import { Navbar } from './components/navbar'
+import { Header } from './components/header'
 import { PresentationSection } from './components/presentationSection'
 
 function App() {
 
   return (
     <div className='max-w-screen'>
-      <Navbar />
+      <Header />
       <PresentationSection />
     </div>
   )
