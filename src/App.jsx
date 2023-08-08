@@ -1,12 +1,14 @@
 import './App.css'
 
 import { Navbar } from './components/navbar'
+import { PresentationSection } from './components/presentationSection'
 
 function App() {
 
   return (
-    <div className='w-screen'>
+    <div className='max-w-screen'>
       <Navbar />
+      <PresentationSection />
     </div>
   )
 }
