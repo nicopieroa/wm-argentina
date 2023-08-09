@@ -1,6 +1,9 @@
 import { Burger, Drawer, Menu, Button } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 
+import wmaLogo from '../assets/images/wma-w-logo.svg'
+import dropdownIcon from '../assets/icons/dropdownArrow.svg'
+
 import { useEffect, useRef, useState } from 'react';
 
 export function Header() {
@@ -33,7 +36,7 @@ export function Header() {
             flex items-center justify-between ${isNavbarVisible ? "opacity-100 visible"
                     : "opacity-0 invisible"} transition-opacity duration-300`}>
 
-                <img src="/images/wma-w-logo.svg" alt="Logo de WM Argentina" className="w-16" />
+                <img src={wmaLogo} alt="Logo de WM Argentina" className="w-16" />
 
                 <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color='#004e91'
                     className="" />
@@ -51,7 +54,7 @@ export function Header() {
                         <Menu.Target>
                             <Button className='flex items-center text-2xl hover:bg-transparent'>
                                 <span>Productos</span>
-                                <img src="icons/arrowDown.svg" alt="Flecha de despliegue de menu"
+                                <img src={dropdownIcon} alt="Flecha de despliegue de menu"
                                     className="w-10 ml-4" />
                             </Button>
                         </Menu.Target>
