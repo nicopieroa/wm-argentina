@@ -1,8 +1,9 @@
 import './App.css'
 
 import { Header } from './components/header'
-import { NewsSection } from './components/newsSection'
 import { PresentationSection } from './components/presentationSection'
+import { NewsSection } from './components/newsSection'
+import { ContactSection } from './components/contactSection'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <PresentationSection />
       <NewsSection />
+      <ContactSection />
     </div>
   )
 }

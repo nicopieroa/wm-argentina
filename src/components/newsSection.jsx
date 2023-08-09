@@ -10,7 +10,7 @@ export function NewsSection() {
             </h2>
 
             <Accordion variant="contained" defaultValue="customization" >
-                <Accordion.Item value="Novedad 1" bg='white'>
+                <Accordion.Item value="Novedad 1" className='bg-white'>
                     <Accordion.Control>
                         Novedad 1
                     </Accordion.Control>
@@ -28,7 +28,7 @@ export function NewsSection() {
                     </Accordion.Panel>
                 </Accordion.Item>
 
-                <Accordion.Item value="Novedad 2" bg='white'>
+                <Accordion.Item value="Novedad 2" className='bg-white'>
                     <Accordion.Control>
                         Novedad 2
                     </Accordion.Control>
@@ -46,7 +46,7 @@ export function NewsSection() {
                     </Accordion.Panel>
                 </Accordion.Item>
 
-                <Accordion.Item value="Novedad 3" bg='white'>
+                <Accordion.Item value="Novedad 3" className='bg-white'>
                     <Accordion.Control>
                         Novedad 3
                     </Accordion.Control>

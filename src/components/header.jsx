@@ -38,8 +38,7 @@ export function Header() {
 
                 <img src={wmaLogo} alt="Logo de WM Argentina" className="w-16" />
 
-                <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color='#004e91'
-                    className="" />
+                <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color='#004e91' />
             </nav>
 
             <Drawer opened={opened} onClose={toggle} position='right' size='272px'
