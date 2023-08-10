@@ -3,7 +3,9 @@ import imagePresentation2 from '../assets/images/headerImage2.jpg'
 
 export function PresentationSection() {
     return (
-        <main className="flex flex-col gap-y-16 px-3 py-20">
+        <main className="flex flex-col gap-y-16 px-3 py-20 mt-20">
+            {/* mt-20 is for separate with the navbar that has an absolute position */}
+
             <h1 className="text-2xl font-bold text-[#004e91] text-center">
                 Mejorando la vida a cada instante
             </h1>
