@@ -4,50 +4,45 @@ import { useDisclosure } from '@mantine/hooks';
 import wmaLogo from '../assets/images/wma-w-logo.svg'
 import dropdownIcon from '../assets/icons/dropdownArrow.svg'
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export function Header() {
     const [opened, { toggle }] = useDisclosure(false);
     const label = opened ? 'Close navigation' : 'Open navigation';
 
-    const lastScrollTop = useRef(0)
-    const [isNavbarVisible, setIsNavbarVisible] = useState(true)
+    const [isNavbarVisible, setIsNavbarVisible] = useState(true);
+    const [prevScrollPos, setPrevScrollPos] = useState(0);
 
     useEffect(() => {
         const handleScroll = () => {
-            const { pageYOffset } = window;
-
-            if (pageYOffset > lastScrollTop.current) {
-                setIsNavbarVisible(false);
-            } else if (pageYOffset < lastScrollTop.current) {
-                setIsNavbarVisible(true);
-            } lastScrollTop.current = pageYOffset;
+            const currentScrollPos = window.scrollY;
+            setIsNavbarVisible(currentScrollPos <= prevScrollPos || currentScrollPos === 0);
+            setPrevScrollPos(currentScrollPos);
         };
 
-        window.addEventListener("scroll", handleScroll, { passive: true });
+        window.addEventListener('scroll', handleScroll);
 
-        return () => { window.removeEventListener("scroll", handleScroll) };
-    }, []);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [prevScrollPos]);
 
     return (
-
         <header>
-            <nav className={`sticky top-0 left-0 w-full bg-white px-3 pt-3 
-            flex items-center justify-between ${isNavbarVisible ? "opacity-100 visible"
-                    : "opacity-0 invisible"} transition-opacity duration-300`}>
+            <nav className={`w-full flex justify-between items-center px-3 py-3 fixed top-0 left-0
+          bg-white shadow-[0_12px_20px_rgba(0,0,0,0.1)] transition-opacity duration-300
+          ${isNavbarVisible ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
 
                 <img src={wmaLogo} alt="Logo de WM Argentina" className="w-16" />
 
-                <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color='#004e91' />
+                <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color="#004e91" />
             </nav>
 
-            <Drawer opened={opened} onClose={toggle} position='right' size='272px'
-                className="">
-                <aside className='w-full bg-[#004e91] h-full grid gap-y-10 place-content-center text-white'>
-                    {opened ?
-                        <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color='#ffffff'
-                            className="absolute top-3 right-7" />
-                        : null}
+            <Drawer opened={opened} onClose={toggle} position="right" size="272px" className="">
+                <aside className="w-full bg-[#004e91] h-full grid gap-y-10 place-content-center text-white">
+                    {opened ? (
+                        <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color="#ffffff" className="absolute top-3 right-7" />
+                    ) : null}
 
                     <Menu trigger="hover" openDelay={100} closeDelay={200}>
                         <Menu.Target>
