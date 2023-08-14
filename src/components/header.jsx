@@ -1,7 +1,7 @@
 import { Burger, Drawer, Menu, Button } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 
-import wmaLogo from '../assets/images/wma-w-logo.svg'
+import { Navbar } from './navbar';
 import dropdownIcon from '../assets/icons/dropdownArrow.svg'
 
 import { useEffect, useState } from 'react';
@@ -29,16 +29,9 @@ export function Header() {
 
     return (
         <header>
-            <nav className={`w-full flex justify-between items-center px-3 py-3 fixed top-0 left-0
-          bg-white shadow-[0_12px_20px_rgba(0,0,0,0.1)] transition-opacity duration-300
-          ${isNavbarVisible ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+            <Navbar isNavbarVisible={isNavbarVisible} opened={opened} toggle={toggle} label={label} />
 
-                <img src={wmaLogo} alt="Logo de WM Argentina" className="w-16" />
-
-                <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color="#004e91" />
-            </nav>
-
-            <Drawer opened={opened} onClose={toggle} position="right" size="272px" className="">
+            <Drawer opened={opened} onClose={toggle} position="right" size="272px" className="mdMin:hidden">
                 <aside className="w-full bg-[#004e91] h-full grid gap-y-10 place-content-center text-white">
                     {opened ? (
                         <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color="#ffffff" className="absolute top-3 right-7" />
@@ -94,6 +87,6 @@ export function Header() {
                     hover:underline hover:decoration-white cursor-pointer'>Contactanos</span>
                 </aside>
             </Drawer>
-        </header>
+        </header >
     )
 }

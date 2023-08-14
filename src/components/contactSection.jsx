@@ -17,8 +17,8 @@ export function ContactSection() {
     }
 
     return (
-        <section className='px-3 py-20'>
-            <h2 className="text-2xl font-semibold text-[#004e91] text-center mb-16">
+        <section className='px-3 py-20 lg:px-12 xl:px-24 xxl:px-48 xxxl:px-72'>
+            <h2 className="text-2xl font-semibold text-[#004e91] text-center mb-16 lg:text-3xl">
                 Contactanos
             </h2>
 
