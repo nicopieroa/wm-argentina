@@ -4,8 +4,8 @@ import newsImage from '../assets/images/newsImage.jpg'
 
 export function NewsSection() {
     return (
-        <section className='px-3 py-20 bg-[#004e91]'>
-            <h2 className="text-2xl font-semibold text-white text-center mb-16">
+        <section className='px-3 py-20 lg:px-12 xl:px-24 xxl:px-48 xxxl:px-72 bg-[#004e91]'>
+            <h2 className="text-2xl font-semibold text-white text-center mb-16 lg:text-3xl">
                 Novedades
             </h2>
 

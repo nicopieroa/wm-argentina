@@ -1,9 +1,10 @@
-import wmaLogo from '../assets/images/wma-w-logo.svg'
+import { Logo } from './logo'
 
 export function Footer() {
     return (
-        <footer className='px-3 py-20 bg-sky-950 text-white flex items-center justify-center flex-wrap gap-y-10'>
-            <img src={wmaLogo} alt="Logo de WM Argentina" className="w-16" />
+        <footer className='px-3 py-20 lg:px-12 xl:px-24 xxl:px-48 xxxl:px-72 bg-sky-950 text-white flex 
+        items-center justify-center flex-wrap gap-y-10'>
+            <Logo />
 
             <div className='w-full flex flex-col gap-y-4 items-center'>
                 <h3 className='text-lg font-semibold'>Sedes</h3>
