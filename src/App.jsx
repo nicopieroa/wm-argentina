@@ -1,21 +1,18 @@
 import './App.css'
+import { HomePage } from './pages/homePage'
+import { ProductsPage } from './pages/productsPage'
 
-import { Header } from './components/header'
-import { PresentationSection } from './components/presentationSection'
-import { NewsSection } from './components/newsSection'
-import { ContactSection } from './components/contactSection'
-import { Footer } from './components/footer'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
 
   return (
-    <div className='max-w-screen'>
-      <Header />
-      <PresentationSection />
-      <NewsSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="products" element={<ProductsPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
