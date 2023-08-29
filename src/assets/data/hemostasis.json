@@ -1,0 +1,133 @@
+{
+  "title": "Hemostasia",
+  "description": "La línea de productos Hemostasia ofrece soluciones diagnósticas in vitro, incluyendo sistemas, reactivos y servicios para diagnosticar trastornos trombóticos y hemorrágicos, mejorando la atención al paciente y reduciendo costos. Cumple con normativas en laboratorios clínicos.",
+  "image": {
+    "url": "/hemostasia-trombosis/backgroundImageOnProductsPage.jpg",
+    "alt": "image description"
+  },
+  "productsCategories": [
+    {
+      "id": 1,
+      "name": "ACL TOP® Family 50 Series",
+      "description": "Los Sistemas de la Familia ACL TOP Serie 50 son avanzados en Hemostasia, ofrecen automatización y gestión de calidad para pruebas rutinarias y diagnósticas. Estandarizados para mayor rendimiento, aseguran calidad y eficiencia del laboratorio. Detectan interferencias, garantizan trazabilidad y funcionan con panel completo de reactivos. Ofrecen resultados consistentes, operación eficaz y rápida obtención de resultados. Adaptados a distintas necesidades de laboratorios.",
+      "products": [
+        {
+          "id": 1,
+          "name": "ACL TOP 350 CTS",
+          "description": "El más compacto para rutina y pruebas especiales. El complemento perfecto para los sistemas ACL TOP 750 CTS o ACL TOP 550 CTS. No requiere de formación especializada para el operador. Sencillez en el análisis.",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF50S/ATF50S-350.png",
+            "alt": "Imagen del producto ACL TOP 350 CTS"
+          },
+          "technicalSheet": "/ATF50S/ATF50S-350.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
+        },
+        {
+          "id": 2,
+          "name": "ACL TOP 550 CTS",
+          "description": "Funcionalidad superior al tamaño correcto. Pruebas altamente automatizadas en laboratorios de rutina con un volumen medio a alto y con pruebas especiales.",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF50S/ATF50S-550.png",
+            "alt": "Imagen del producto ACL TOP 550 CTS"
+          },
+          "technicalSheet": "/ATF50S/ATF50S-550.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
+        },
+        {
+          "id": 3,
+          "name": "ACL TOP 750 CTS / LAS",
+          "description": "Procesa las muestras en tubo cerrado, aportando una mayor seguridad en los laboratorios de pruebas de rutina de gran volumen y para laboratorios de pruebas especiales.Se conecta a cadenas de automatización de laboratorios para una máxima flexibilidad y eficacia.",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF50S/ATF50S-750.png",
+            "alt": "Imagen del producto ACL TOP 750 CTS / LAS"
+          },
+          "technicalSheet": "/ATF50S/ATF50S-750.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ACL TOP® Family Series",
+      "description": "La familia ACL TOP ofrece una línea completa de analizadores de Hemostasia que cumplen altos estándares en funcionalidad y operatividad. Cubren necesidades de laboratorios de distintos tamaños y objetivos, brindando análisis inteligente y soluciones estandarizadas para patologías hemostáticas. Los Sistemas ACL TOP se optimizan con reactivos HemosIL, asegurando gestión completa de enfermedades y un amplio menú de pruebas.",
+      "products": [
+        {
+          "id": 1,
+          "name": "ACL TOP 300 CTS",
+          "description": "De tamaño compacto, pero con características sólidas. Un verdadero complemento para los demás modelos de la Familia ACL TOP en un entorno de análisis completamente integrado.",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF/ATF-300.jpg",
+            "alt": "Imagen del producto ACL TOP 300 CTS"
+          },
+          "technicalSheet": "/ATF/ATF-300.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-instruments-system-acl-top-family-series"
+        },
+        {
+          "id": 2,
+          "name": "ACL TOP 500 CTS",
+          "description": "Con un tamaño compacto y procesos completamente automatizados, ofrece un amplio menú de pruebas de rutina y diagnósticas.",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF/ATF-500.jpg",
+            "alt": "Imagen del producto ACL TOP 500 CTS"
+          },
+          "technicalSheet": "/ATF/ATF-500.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-instruments-system-acl-top-family-series"
+        },
+        {
+          "id": 3,
+          "name": "ACL TOP 700 CTS / LAS",
+          "description": "Procesa las muestras en tubo cerrado, aportando una mayor seguridad en los laboratorios  de pruebas de rutina de gran volumen y especiales. Conectado a cadenas de automatización del laboratorio aportando una máxima flexibilidad y eficacia",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF/ATF-700.jpg",
+            "alt": "Imagen del producto ACL TOP 700 CTS"
+          },
+          "technicalSheet": "/ATF/ATF-700.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-instruments-system-acl-top-family-series"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "MicroINR Link",
+      "description": "product description",
+      "image": {
+        "url": "url",
+        "alt": "image description"
+      },
+      "technicalSheet": "download url"
+    },
+    {
+      "id": 2,
+      "name": "MicroINR",
+      "description": "product description",
+      "image": {
+        "url": "url",
+        "alt": "image description"
+      },
+      "technicalSheet": "download url"
+    },
+    {
+      "id": 3,
+      "name": "MicroINR eXPERT",
+      "description": "product description",
+      "image": {
+        "url": "url",
+        "alt": "image description"
+      },
+      "technicalSheet": "download url"
+    }
+  ],
+  "reagents": [
+    {
+      "id": 1,
+      "nam": "",
+      "description": "",
+      "image": {
+        "url": "url",
+        "alt": "image description"
+      }
+    }
+  ]
+}

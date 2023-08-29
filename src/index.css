@@ -6,6 +6,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .mantine-19pz3dh {
@@ -16,3 +21,12 @@
   width: 100%;
   height: 100%;
 }
+.textDescriptionCard {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: wrap;
+}
+
+/* hacer funcionalidad de boton ver mas */
