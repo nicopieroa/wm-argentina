@@ -1,6 +1,6 @@
 import './App.css'
 import { HomePage } from './pages/homePage'
-import { ProductsPage } from './pages/productsPage'
+import { HemostasiaPage } from './pages/hemostasiaPage'
 
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="products" element={<ProductsPage />} />
+        <Route path="hemostasia" element={<HemostasiaPage />} />
       </Routes>
     </BrowserRouter>
   )
