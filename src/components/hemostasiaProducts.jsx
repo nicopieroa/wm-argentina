@@ -3,12 +3,16 @@ import data from '../assets/data/hemostasis.json'
 import { Button } from '@mantine/core'
 import { AlertErrorComponent } from './alertErrorComponent';
 
+import { useState } from 'react';
+
 export function HemostasiaProducts() {
+    const [expandedCards, setExpandedCards] = useState({});
+
     function DownloadPdfButton({ pdfUrl, pdfName }) {
         const handleDownload = () => {
             const link = document.createElement('a');
             link.href = pdfUrl;
-            link.target = '_blank'; // Abre el enlace en una nueva pestaña
+            link.target = '_blank';
             link.download = pdfName;
             link.click();
         };
@@ -18,6 +22,13 @@ export function HemostasiaProducts() {
                 Descargar ficha técnica
             </Button>);
     }
+
+    const handleVerMásButton = (productId) => {
+        setExpandedCards((prevExpandedCards) => ({
+            ...prevExpandedCards,
+            [productId]: !prevExpandedCards[productId],
+        }));
+    };
 
     return (
         <>
@@ -54,9 +65,15 @@ export function HemostasiaProducts() {
                                             {product.name}
                                         </h3>
 
-                                        <p className='textDescriptionCard'>
-                                            {product.description}
-                                        </p>
+                                        <div>
+                                            <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2`}>
+                                                {product.description}
+                                            </p>
+
+                                            <Button variant="outline" size="xs" compact onClick={() => handleVerMásButton(product.id)}>
+                                                {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
+                                            </Button>
+                                        </div>
 
                                         <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
 
