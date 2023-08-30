@@ -3,7 +3,7 @@ import { Logo } from './logo';
 
 import dropdownArrowBlueColor from '../assets/icons/dropdownArrow-blueColor.svg'
 import whatsappWhiteColor from '../assets/icons/whatsapp-whiteColor.svg'
-import emailWhiteColor from '../assets/icons/EMAIL-whiteColor.svg'
+import emailWhiteColor from '../assets/icons/email-whiteColor.svg'
 
 import { Link } from 'react-router-dom';
 
