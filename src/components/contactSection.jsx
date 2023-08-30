@@ -1,5 +1,5 @@
 import { useForm } from '@mantine/form';
-import { Textarea, TextInput, Button, Box } from '@mantine/core';
+import { Textarea, TextInput, Button } from '@mantine/core';
 
 export function ContactSection() {
     const form = useForm({
@@ -17,39 +17,22 @@ export function ContactSection() {
     }
 
     return (
-        <section className='px-3 py-20 lg:px-12 xl:px-24 xxl:px-48 xxxl:px-72'>
-            <h2 className="text-2xl font-semibold text-[#004e91] text-center mb-16 lg:text-3xl">
+        <section id="contactSection" className='sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
+            <h2 className="text-4xl font-bold text-[#004e91] mb-8 lg:text-5xl">
                 Contactanos
             </h2>
 
-            <Box maw={320} mx="auto">
-                <form
-                    onSubmit={form.onSubmit(handleSubmit)}
-                    className='flex flex-col gap-y-8'>
-                    <TextInput
-                        label="Nombre"
-                        placeholder="Gustavo"
-                        {...form.getInputProps('name')}
-                        className='m-0' />
-                    <TextInput
-                        mt="sm"
-                        label="Email"
-                        placeholder="gustavo@email.com"
-                        {...form.getInputProps('email')}
-                        className='m-0' />
-                    <Textarea
-                        label="Mensaje"
-                        placeholder="Mi consulta es sobre..."
-                        {...form.getInputProps('message')} />
+            <form onSubmit={form.onSubmit(handleSubmit)} className='flex flex-col gap-y-8'>
+                <TextInput label="Nombre" placeholder="Gustavo" {...form.getInputProps('name')} withAsterisk className='m-0 w-full' />
 
-                    <Button
-                        variant='filled'
-                        type='submit'
-                        className='bg-green-600 hover:bg-green-700 m-0'>
-                        ENVIAR
-                    </Button>
-                </form>
-            </Box>
+                <TextInput label="Email" placeholder="gustavo@email.com" {...form.getInputProps('email')} withAsterisk className='m-0 w-full' />
+
+                <Textarea label="Mensaje" placeholder="Mi consulta es sobre..." {...form.getInputProps('message')} withAsterisk className='m-0 w-full' />
+
+                <Button size="lg" variant='filled' type='submit' className='bg-green-600 hover:bg-green-700 m-0'>
+                    ENVIAR
+                </Button>
+            </form>
         </section>
     )
 }

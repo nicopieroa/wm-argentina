@@ -1,8 +1,10 @@
 import { Burger, Menu, Button } from '@mantine/core';
-
 import { Logo } from './logo';
-import dropdownIconBlue from '../assets/icons/dropdownArrow-blueColor.svg'
-import whatsappBlue from '../assets/icons/whatsapp-blueColor.svg'
+
+import dropdownArrowBlueColor from '../assets/icons/dropdownArrow-blueColor.svg'
+import whatsappWhiteColor from '../assets/icons/whatsapp-whiteColor.svg'
+import emailWhiteColor from '../assets/icons/EMAIL-whiteColor.svg'
+
 import { Link } from 'react-router-dom';
 
 export function Navbar({ isNavbarVisible, opened, toggle, label }) {
@@ -11,7 +13,9 @@ export function Navbar({ isNavbarVisible, opened, toggle, label }) {
         <nav className={`w-full flex justify-between items-center px-twoDotFivePercent py-4 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent fixed top-0 left-0 bg-white shadow-[0_12px_20px_rgba(0,0,0,0.1)] transition-opacity duration-300 z-10 
         ${isNavbarVisible ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
 
-            <Link to='/'><Logo width="64px" /></Link>
+            <Link to='/'>
+                <Logo width="64px" />
+            </Link>
 
             <div className='hidden md:flex items-center gap-x-8'>
                 <div className='flex items-center gap-x-4'>
@@ -19,8 +23,7 @@ export function Navbar({ isNavbarVisible, opened, toggle, label }) {
                         <Menu.Target>
                             <Button className='flex items-center text-base hover:bg-transparent p-0'>
                                 <span className='text-blue-800'>Productos</span>
-                                <img src={dropdownIconBlue} alt="Flecha de despliegue de menu"
-                                    className="w-5 ml-2" />
+                                <img src={dropdownArrowBlueColor} alt="Flecha de despliegue de menu" className="w-8 ml-2" />
                             </Button>
                         </Menu.Target>
 
@@ -42,7 +45,14 @@ export function Navbar({ isNavbarVisible, opened, toggle, label }) {
                     </span>
                 </div >
 
-                <img src={whatsappBlue} alt="Logo de whatsapp para contactarse" className='w-13' />
+                <div className="flex items-center justify-center gap-x-4 bg-blue-600 py-2 px-3 rounded">
+                    <a href="https://wa.me/543426124730" target="_blank" rel="noopener noreferrer" className='w-8 transition-all duration-200 grow-animation'>
+                        <img src={whatsappWhiteColor} alt="Imagen del logo de whatsapp" className='w-full' />
+                    </a>
+                    <a href="#contactSection" className='w-9 transition-all duration-200 grow-animation'>
+                        <img src={emailWhiteColor} alt="Imagen del logo de un sobre, simbolizando casilla de correo" className='w-full' />
+                    </a>
+                </div>
             </div>
 
 

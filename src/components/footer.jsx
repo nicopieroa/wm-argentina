@@ -2,7 +2,7 @@ import { Logo } from './logo'
 
 export function Footer() {
     return (
-        <footer className='px-3 py-20 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent bg-sky-950 text-white flex items-center justify-center flex-wrap gap-8'>
+        <footer className='px-3 py-20 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent bg-sky-950 text-white flex items-center justify-center flex-wrap gap-20'>
             <Logo width="96px" />
 
             <div className='flex flex-col gap-4 items-center'>
@@ -41,7 +41,7 @@ export function Footer() {
             </div>
 
             <div className='flex flex-col gap-y-4 items-center justify-center'>
-                <h3 className='text-lg font-semibold'>
+                <h3 className='text-2xl font-semibold'>
                     Horarios de atención
                 </h3>
 

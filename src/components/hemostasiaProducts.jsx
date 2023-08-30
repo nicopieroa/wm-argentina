@@ -4,6 +4,7 @@ import { Button } from '@mantine/core'
 import { AlertErrorComponent } from './alertErrorComponent';
 
 import { useState } from 'react';
+import { ContactSection } from './contactSection';
 
 export function HemostasiaProducts() {
     const [expandedCards, setExpandedCards] = useState({});
@@ -34,7 +35,7 @@ export function HemostasiaProducts() {
         <>
             {data ?
                 /* mt-20 is for separate with the navbar that has an absolute position */
-                <main className='flex flex-col gap-y-16 mt-20 text-center px-twoDotFivePercent py-20 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
+                <main className='flex flex-col gap-y-32 mt-20 text-center px-twoDotFivePercent py-20 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
                     <h1 className="text-4xl font-bold text-[#004e91] lg:text-5xl">
                         {data.title}
                     </h1>
@@ -46,7 +47,7 @@ export function HemostasiaProducts() {
                     </p>
 
                     {data.productsCategories.map((productsCategories) => (
-                        <section key={productsCategories.id} className='flex flex-col gap-y-10 items-center'>
+                        <section key={productsCategories.id} className='flex flex-col gap-y-16 items-center'>
                             <h2 className='text-[#a5bb00] font-semibold text-3xl text-center lg:text-4xl'>
                                 {productsCategories.name}
                             </h2>
@@ -85,6 +86,9 @@ export function HemostasiaProducts() {
                             </div>
                         </section>
                     ))}
+
+                    <ContactSection />
+
                 </main>
                 : <AlertErrorComponent />}
         </>
