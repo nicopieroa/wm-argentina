@@ -33,7 +33,7 @@ export function Header() {
             <Navbar isNavbarVisible={isNavbarVisible} opened={opened} toggle={toggle} label={label} />
 
             <Drawer opened={opened} onClose={toggle} position="right" size="272px" className="md:hidden">
-                <aside className="w-full bg-blue-700 h-full grid gap-y-10 place-content-center text-white">
+                <aside className="w-full bg-blue-700 h-full grid gap-y-10 place-content-center text-white text-center">
                     {opened ? (
                         <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color="#ffffff" className="absolute top-3 right-7" />
                     ) : null}
@@ -53,12 +53,11 @@ export function Header() {
                         </Menu.Dropdown>
                     </Menu>
 
-                    <span className='text-2xl text-center font-semibold transition-all duration-300 
-                    hover:underline hover:decoration-white cursor-pointer'>Empresa</span>
-                    <span className='text-2xl text-center font-semibold transition-all duration-300 
-                    hover:underline hover:decoration-white cursor-pointer'>Atención al cliente</span>
-                    <span className='text-2xl text-center font-semibold transition-all duration-300 
-                    hover:underline hover:decoration-white cursor-pointer'>Contactanos</span>
+                    <Link to='/empresa'>
+                        <span className='text-2xl font-semibold transition-all duration-300 hover:underline hover:decoration-white cursor-pointer'>
+                            Empresa
+                        </span>
+                    </Link>
                 </aside>
             </Drawer>
         </header >

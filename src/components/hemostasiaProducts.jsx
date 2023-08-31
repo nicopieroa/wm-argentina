@@ -34,9 +34,8 @@ export function HemostasiaProducts() {
     return (
         <>
             {data ?
-                /* mt-20 is for separate with the navbar that has an absolute position */
-                <main className='flex flex-col gap-y-32 mt-20 text-center px-twoDotFivePercent py-20 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
-                    <h1 className="text-4xl font-bold text-[#004e91] lg:text-5xl">
+                <main className='flex flex-col gap-y-32 text-center px-twoDotFivePercent py-64 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
+                    <h1 className="text-4xl font-bold text-blue-800 lg:text-5xl">
                         {data.title}
                     </h1>
 
@@ -62,6 +61,7 @@ export function HemostasiaProducts() {
                                         <div className='w-full h-44 rounded-md border'>
                                             <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-center rounded-md' />
                                         </div>
+
                                         <h3 className='text-[#a5bb00] font-semibold text-2xl'>
                                             {product.name}
                                         </h3>
