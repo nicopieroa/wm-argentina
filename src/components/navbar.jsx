@@ -29,24 +29,20 @@ export function Navbar({ isNavbarVisible, opened, toggle, label }) {
 
                         <Menu.Dropdown className='bg-gray-100 text-center'>
                             <Menu.Item className='text-base text-center font-bold hover:underline hover:decoration-blue-800 text-blue-800 transition-all duration-150'>
-                                <Link to="/hemostasia">Hemostasia</Link>
+                                <Link to="hemostasia">Hemostasia</Link>
                             </Menu.Item>
                         </Menu.Dropdown>
                     </Menu>
 
-                    <span className='text-base text-blue-800 text-center font-semibold hover:underline hover:decoration-blue-00 cursor-pointer'>
-                        Empresa
-                    </span>
-                    <span className='text-base text-[#004e91] text-center font-semibold hover:underline hover:decoration-[#004e91] cursor-pointer'>
-                        Cliente
-                    </span>
-                    <span className='text-base text-[#004e91] text-center font-semibold hover:underline hover:decoration-[#004e91] cursor-pointer'>
-                        Contactanos
-                    </span>
+                    <Link to='empresa'>
+                        <span className='text-base text-blue-800 font-semibold hover:underline hover:decoration-blue-800 cursor-pointer'>
+                            Empresa
+                        </span>
+                    </Link>
                 </div >
 
-                <div className="flex items-center justify-center gap-x-4 bg-blue-600 py-2 px-3 rounded">
-                    <a href="https://wa.me/543426124730" target="_blank" rel="noopener noreferrer" className='w-8 transition-all duration-200 grow-animation'>
+                <div className="flex items-center justify-center gap-x-4 bg-blue-600 py-2 px-3 rounded-lg">
+                    <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className='w-8 transition-all duration-200 grow-animation'>
                         <img src={whatsappWhiteColor} alt="Imagen del logo de whatsapp" className='w-full' />
                     </a>
                     <a href="#contactSection" className='w-9 transition-all duration-200 grow-animation'>
