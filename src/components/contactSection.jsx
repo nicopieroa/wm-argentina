@@ -17,7 +17,7 @@ export function ContactSection() {
     }
 
     return (
-        <section id="contactSection" className='sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
+        <section id="contactSection" className='px-twoDotFivePercent py-64 text-center sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
             <h2 className="text-4xl font-bold text-[#004e91] mb-8 lg:text-5xl">
                 Contactanos
             </h2>
