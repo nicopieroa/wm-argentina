@@ -28,10 +28,22 @@ export function Navbar({ isNavbarVisible, opened, toggle, label }) {
                         </Menu.Target>
 
                         <Menu.Dropdown className='bg-gray-100 text-center'>
+                            <Menu.Label className='text-sm'>
+                                Categoria 1
+                            </Menu.Label>
                             <Menu.Item className='text-base text-center font-bold hover:underline hover:decoration-blue-800 text-blue-800 transition-all duration-150'>
                                 <Link to="/hemostasia">
                                     Hemostasia
                                 </Link>
+                            </Menu.Item>
+
+                            <Menu.Divider />
+
+                            <Menu.Label className='text-sm'>
+                                Categoria 2
+                            </Menu.Label>
+                            <Menu.Item className='text-base text-center font-bold hover:underline hover:decoration-blue-800 text-blue-800 transition-all duration-150'>
+                                Link
                             </Menu.Item>
                         </Menu.Dropdown>
                     </Menu>
