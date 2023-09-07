@@ -8,41 +8,19 @@
   "productsCategories": [
     {
       "id": 1,
-      "name": "ACL TOP® Family 50 Series",
-      "description": "Los Sistemas de la Familia ACL TOP Serie 50 son avanzados en Hemostasia, ofrecen automatización y gestión de calidad para pruebas rutinarias y diagnósticas. Estandarizados para mayor rendimiento, aseguran calidad y eficiencia del laboratorio. Detectan interferencias, garantizan trazabilidad y funcionan con panel completo de reactivos. Ofrecen resultados consistentes, operación eficaz y rápida obtención de resultados. Adaptados a distintas necesidades de laboratorios.",
+      "name": "ACL Elite Family",
+      "description": "Pruebas de rutina, especiales y STAT en sistemas compactos y cómodos. Los sistemas ACL Elite Pro ofrecen una combinación única de automatización del proceso y rapidez, mientras que los sistemas ACL Elite proporcionan la misma robustez en la capacidad de análisis a los laboratorios más pequeños de su entorno. Soluciones sencillas y completas para el laboratorio de Hemostasia.",
       "products": [
         {
           "id": 1,
-          "name": "ACL TOP 350 CTS",
-          "description": "El más compacto para rutina y pruebas especiales. El complemento perfecto para los sistemas ACL TOP 750 CTS o ACL TOP 550 CTS. No requiere de formación especializada para el operador. Sencillez en el análisis.",
+          "name": "ACL Elite Hero",
+          "description": "Eficiente y versátil. Procesamiento sencillo de muestras, admite diferentes tamaños y volúmenes, hasta 22 reactivos. Rastreo de reactivos y verificación mediante lector de códigos de barras. Tecnología de centrifugación confiable, bajo mantenimiento. Gestión de calidad integral. Análisis centrífugo, múltiples sistemas de lectura y monitoreo constante para resultados precisos. Registros de pacientes completos con gráficas de control de calidad y estado de reactivos. Amplio menú de pruebas. Optimizado para pruebas HemosIL, incluyendo rutina, anticoagulación, Dímero-D, Trombofilia y más, para una gestión completa de patologías.",
           "image": {
-            "url": "/hemostasia-trombosis/ATF50S/ATF50S-350.png",
-            "alt": "Imagen del producto ACL TOP 350 CTS"
+            "url": "/hemostasia-trombosis/ACL Elite/ACL Elite - Hero.png",
+            "alt": "Imagen del producto ACL Elite Hero"
           },
-          "technicalSheet": "/ATF50S/ATF50S-350.pdf",
-          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
-        },
-        {
-          "id": 2,
-          "name": "ACL TOP 550 CTS",
-          "description": "Funcionalidad superior al tamaño correcto. Pruebas altamente automatizadas en laboratorios de rutina con un volumen medio a alto y con pruebas especiales.",
-          "image": {
-            "url": "/hemostasia-trombosis/ATF50S/ATF50S-550.png",
-            "alt": "Imagen del producto ACL TOP 550 CTS"
-          },
-          "technicalSheet": "/ATF50S/ATF50S-550.pdf",
-          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
-        },
-        {
-          "id": 3,
-          "name": "ACL TOP 750 CTS / LAS",
-          "description": "Procesa las muestras en tubo cerrado, aportando una mayor seguridad en los laboratorios de pruebas de rutina de gran volumen y para laboratorios de pruebas especiales.Se conecta a cadenas de automatización de laboratorios para una máxima flexibilidad y eficacia.",
-          "image": {
-            "url": "/hemostasia-trombosis/ATF50S/ATF50S-750.png",
-            "alt": "Imagen del producto ACL TOP 750 CTS / LAS"
-          },
-          "technicalSheet": "/ATF50S/ATF50S-750.pdf",
-          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/hemostasia/familia-acl-elite"
         }
       ]
     },
@@ -85,49 +63,364 @@
           "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-instruments-system-acl-top-family-series"
         }
       ]
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "MicroINR Link",
-      "description": "product description",
-      "image": {
-        "url": "url",
-        "alt": "image description"
-      },
-      "technicalSheet": "download url"
-    },
-    {
-      "id": 2,
-      "name": "MicroINR",
-      "description": "product description",
-      "image": {
-        "url": "url",
-        "alt": "image description"
-      },
-      "technicalSheet": "download url"
     },
     {
       "id": 3,
-      "name": "MicroINR eXPERT",
-      "description": "product description",
-      "image": {
-        "url": "url",
-        "alt": "image description"
-      },
-      "technicalSheet": "download url"
+      "name": "ACL TOP® Family 50 Series",
+      "description": "Los Sistemas de la Familia ACL TOP Serie 50 son avanzados en Hemostasia, ofrecen automatización y gestión de calidad para pruebas rutinarias y diagnósticas. Estandarizados para mayor rendimiento, aseguran calidad y eficiencia del laboratorio. Detectan interferencias, garantizan trazabilidad y funcionan con panel completo de reactivos. Ofrecen resultados consistentes, operación eficaz y rápida obtención de resultados. Adaptados a distintas necesidades de laboratorios.",
+      "products": [
+        {
+          "id": 1,
+          "name": "ACL TOP 350 CTS",
+          "description": "El más compacto para rutina y pruebas especiales. El complemento perfecto para los sistemas ACL TOP 750 CTS o ACL TOP 550 CTS. No requiere de formación especializada para el operador. Sencillez en el análisis.",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF50S/ATF50S-350.png",
+            "alt": "Imagen del producto ACL TOP 350 CTS"
+          },
+          "technicalSheet": "/ATF50S/ATF50S-350.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
+        },
+        {
+          "id": 2,
+          "name": "ACL TOP 550 CTS",
+          "description": "Funcionalidad superior al tamaño correcto. Pruebas altamente automatizadas en laboratorios de rutina con un volumen medio a alto y con pruebas especiales.",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF50S/ATF50S-550.png",
+            "alt": "Imagen del producto ACL TOP 550 CTS"
+          },
+          "technicalSheet": "/ATF50S/ATF50S-550.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
+        },
+        {
+          "id": 3,
+          "name": "ACL TOP 750 CTS / LAS",
+          "description": "Procesa las muestras en tubo cerrado, aportando una mayor seguridad en los laboratorios de pruebas de rutina de gran volumen y para laboratorios de pruebas especiales.Se conecta a cadenas de automatización de laboratorios para una máxima flexibilidad y eficacia.",
+          "image": {
+            "url": "/hemostasia-trombosis/ATF50S/ATF50S-750.png",
+            "alt": "Imagen del producto ACL TOP 750 CTS / LAS"
+          },
+          "technicalSheet": "/ATF50S/ATF50S-750.pdf",
+          "moreInformationUrl": "https://www.werfen.com/na/en/hemostasis-diagnostics/coagulation-analyzer-acl-top-family-50-series"
+        }
+      ]
     }
   ],
-  "reagents": [
+
+  "subTitle": "Reactivos Hemosil",
+  "reactivosDescription": "El panel de pruebas de Hemostasia automatizadas más completo, con reactivos HemosIL líquidos listos para usar, ofrece resultados rápidos y precisos para patologías hemorrágicas y trombóticas. Esto mejora la eficacia del laboratorio y la atención al paciente al eliminar el tiempo de reconstitución y el pipeteo manual. Las pruebas HemosIL cubren el 91 % de las pruebas de Hemostasia, incluyendo TP, TTPA, Dímero-D y Antitrombina, y también mejoran la gestión de otras patologías hemorrágicas y trombóticas.",
+  "subName": "General Screening and Anticoagulant Monitoring",
+  "typesDescription": "Liquid, ready-to-use format * Not 510(k) cleared, not available in all countries",
+  "categories": [
     {
       "id": 1,
-      "nam": "",
-      "description": "",
-      "image": {
-        "url": "url",
-        "alt": "image description"
-      }
+      "name": "PT",
+      "type1": [
+        {
+          "id": 1,
+          "name": "RecombiPlasTin® 2G"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "RecombiPlasTin"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "APTT",
+      "type1": "",
+      "type2": [
+        {
+          "id": 1,
+          "name": "Synth ASil ®"
+        },
+        {
+          "id": 2,
+          "name": "SynthAFax ®"
+        },
+        {
+          "id": 3,
+          "name": "APTT-SP"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fibrinogen Clauss",
+      "type1": [
+        {
+          "id": 1,
+          "name": "Fib-C"
+        },
+        {
+          "id": 2,
+          "name": "Q.F.A. Thrombin"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "UF/LMW Heparin",
+      "type1": [
+        {
+          "id": 1,
+          "name": "Heparin (2 stage)"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "Liquid Anti-Xa (1 stage)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "DOACs",
+      "type1": [
+        {
+          "id": 1,
+          "name": "Dabigatran (DTI)*"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "Rivaroxaban (Liquid Anti-Xa)*"
+        },
+        {
+          "id": 2,
+          "name": "Apixaban (Liquid Anti-Xa)*"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "D-Dimer",
+      "type1": [
+        {
+          "id": 1,
+          "name": "D-Dimer 500*"
+        },
+        {
+          "id": 2,
+          "name": "D-Dimer HS"
+        },
+        {
+          "id": 3,
+          "name": "D-Dimer"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "D-Dimer HS 500"
+        },
+        {
+          "id": 2,
+          "name": "D-Dimer HS 2000*"
+        },
+        {
+          "id": 3,
+          "name": "AcuStar D-Dimer"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Antiphospholipid Syndrome",
+      "type1": [
+        {
+          "id": 1,
+          "name": "dRVVT Screen"
+        },
+        {
+          "id": 2,
+          "name": "dRVVT Confirm"
+        },
+        {
+          "id": 3,
+          "name": "AcuStar aβ2GPI Domain 1*"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "Silica Clotting Time"
+        },
+        {
+          "id": 2,
+          "name": "AcuStar aCL IgG"
+        },
+        {
+          "id": 3,
+          "name": "AcuStar aCL IgM"
+        },
+        {
+          "id": 4,
+          "name": "AcuStar aβ2GPI IgG"
+        },
+        {
+          "id": 5,
+          "name": "AcuStar aβ2GPI IgM"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Heparin-Induced Thrombocytopenia",
+      "type1": "",
+      "type2": [
+        {
+          "id": 1,
+          "name": "HIT-Ab(PF4-H)"
+        },
+        {
+          "id": 2,
+          "name": "AcuStar HIT-IgG(PF4-H)"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "von Willebrand Disease",
+      "type1": [
+        {
+          "id": 1,
+          "name": "VWF Activity"
+        },
+        {
+          "id": 2,
+          "name": "Activity*"
+        },
+        {
+          "id": 3,
+          "name": "Cofactor Activity*"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "VWF Antigen"
+        },
+        {
+          "id": 2,
+          "name": "VWF Ristocetin Cofactor"
+        },
+        {
+          "id": 3,
+          "name": "AcuStar VWF Antigen*"
+        },
+        {
+          "id": 4,
+          "name": "AcuStar Ristocetin"
+        },
+        {
+          "id": 5,
+          "name": "AcuStar VWF CB*"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Fibrin Formation and Degradation",
+      "type1": [
+        {
+          "id": 1,
+          "name": "Plasminogen"
+        },
+        {
+          "id": 2,
+          "name": "Plasmin Inhibitor"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "FDP*"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Thrombophilia",
+      "type1": [
+        {
+          "id": 1,
+          "name": "Protein C (Chromogenic)"
+        },
+        {
+          "id": 2,
+          "name": "Protein C (Clotting)"
+        },
+        {
+          "id": 3,
+          "name": "Free Protein S (Antigenic)"
+        },
+        {
+          "id": 4,
+          "name": "Protein S Activity (Clotting)"
+        },
+        {
+          "id": 5,
+          "name": "FV Leiden (APC-R V)"
+        },
+        {
+          "id": 6,
+          "name": "Homocysteine"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "Xpert HemosIl® FII & FV"
+        },
+        {
+          "id": 2,
+          "name": "Liquid Antithrombin"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Coagulation Factors",
+      "type1": [
+        {
+          "id": 1,
+          "name": "Intrinsic Factors"
+        },
+        {
+          "id": 2,
+          "name": "Extrinsic Factors"
+        }
+      ],
+      "type2": [
+        {
+          "id": 1,
+          "name": "FXIII Antigen"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Other",
+      "type1": [
+        {
+          "id": 1,
+          "name": "Thrombin Time"
+        },
+        {
+          "id": 2,
+          "name": "INR Validate"
+        },
+        {
+          "id": 3,
+          "name": "ISI Calibrate"
+        }
+      ],
+      "type2": ""
     }
   ]
 }

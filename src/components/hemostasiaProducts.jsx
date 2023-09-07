@@ -2,9 +2,9 @@ import data from '../assets/data/hemostasis.json'
 
 import { Button } from '@mantine/core'
 import { AlertErrorComponent } from './alertErrorComponent';
+import { ContactSection } from './contactSection';
 
 import { useState } from 'react';
-import { ContactSection } from './contactSection';
 
 export function HemostasiaProducts() {
     const [expandedCards, setExpandedCards] = useState({});
@@ -29,6 +29,16 @@ export function HemostasiaProducts() {
             ...prevExpandedCards,
             [productId]: !prevExpandedCards[productId],
         }));
+    };
+
+    const handleLinkClick = (e) => {
+        e.preventDefault();
+
+        const userConfirmed = window.confirm('¿Deseas abrir este enlace en una nueva pestaña?');
+
+        if (userConfirmed) {
+            window.open(e.target.href, '_blank');
+        }
     };
 
     return (
@@ -59,7 +69,7 @@ export function HemostasiaProducts() {
                                 {productsCategories.products.map((product) => (
                                     <div key={product.id} className='w-85 flex flex-col gap-y-6 items-center justify-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
                                         <div className='w-full h-44 rounded-md border'>
-                                            <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-center rounded-md' />
+                                            <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-center rounded-md bg-white' />
                                         </div>
 
                                         <h3 className='text-blue-600 font-semibold text-2xl'>
@@ -71,21 +81,69 @@ export function HemostasiaProducts() {
                                                 {product.description}
                                             </p>
 
-                                            <Button size="xs" className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' compact onClick={() => handleVerMásButton(product.id)}>
+                                            <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
                                                 {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
                                             </Button>
                                         </div>
 
-                                        <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
+                                        {product.technicalSheet ?
+                                            <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
+                                            : null}
 
-                                        <a href={product['moreInformationUrl']} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
-                                            Más información
-                                        </a>
+                                        {product.moreInformationUrl ?
+                                            <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
+                                                Más información
+                                            </a>
+                                            : null}
                                     </div>
                                 ))}
                             </div>
                         </section>
                     ))}
+
+                    <section className='text-blue-600 flex flex-col gap-y-16 items-center'>
+                        <h2 className='font-bold text-3xl text-center lg:text-4xl'>
+                            {data.subTitle}
+                        </h2>
+
+                        <p className='text-base text-center font-medium xl:text-lg'>
+                            {data.reactivosDescription}
+                        </p>
+
+                        <div className='flex flex-col gap-y-6 items-center justify-center'>
+                            <h3 className='text-blue-600 font-semibold text-2xl'>
+                                {data.subName}
+                            </h3>
+
+                            <p className='text-violet-900 text-base text-center font-medium xl:text-lg'>
+                                {data.typesDescription}
+                            </p>
+                        </div>
+
+                        <div className='flex items-center justify-center gap-8 flex-wrap'>
+                            {data.categories.map((reactivo) => (
+                                <div key={reactivo.id} className='w-60 flex flex-col gap-y-6 items-center justify-center bg-blue-800/20 border-blue-800 border rounded-2xl p-6'>
+                                    <h4 className='text-black font-semibold text-xl'>
+                                        {reactivo.name}
+                                    </h4>
+
+                                    <div className='flex flex-col gap-y-3 items-center justify-center'>
+                                        {reactivo.type1 ? reactivo.type1.map((type1) => (
+                                            <p key={type1.id} className='text-gray-500 font-medium'>
+                                                {type1.name}
+                                            </p>
+                                        )) : null}
+
+                                        {reactivo.type2 ? reactivo.type2.map((type2) => (
+                                            <p key={type2.id} className='text-violet-900 font-medium'>
+                                                {type2.name}
+                                            </p>
+                                        )) : null}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
 
                     <ContactSection />
 
