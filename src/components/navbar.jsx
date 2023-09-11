@@ -65,7 +65,6 @@ export function Navbar({ isNavbarVisible, opened, toggle, label }) {
                 </div>
             </div>
 
-
             <Burger opened={opened} onClick={toggle} aria-label={label} size="44px" color="#004e91" className='md:hidden' />
         </nav >
     )

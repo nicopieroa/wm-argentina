@@ -1,18 +1,24 @@
-import { Accordion } from '@mantine/core';
+import { Accordion, Button } from '@mantine/core';
+import { ResumeForm } from './resumeForm';
+import { useState } from 'react';
 
-import newsImage from '../assets/images/newsImage.jpg'
+export function WorkWithUsSection() {
+    const [open, setOpen] = useState(false)
 
-export function NewsSection() {
+    const handleAppleyButton = () => {
+        setOpen(!open)
+    }
+
     return (
-        <section className='bg-blue-900 text-center px-twoDotFivePercent py-64 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
-            <h2 className="text-4xl font-bold text-white lg:text-5xl mb-16">
-                Novedades
-            </h2>
+        <main className='flex flex-col gap-y-32 text-center px-twoDotFivePercent py-64 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
+            <h1 className="text-4xl font-bold text-blue-800 lg:text-5xl">
+                Trabaja con nosotros
+            </h1>
 
             <Accordion variant="contained" defaultValue="customization" >
                 <Accordion.Item value="Novedad 1" className='bg-white'>
                     <Accordion.Control>
-                        Novedad 1
+                        Oferta laboral 1
                     </Accordion.Control>
                     <Accordion.Panel>
                         <div className='flex flex-col gap-y-8'>
@@ -23,16 +29,20 @@ export function NewsSection() {
                                 ipsum odit ratione? Quisquam, dolores. Minus, delectus!
                             </p>
 
-                            <img className='rounded' src={newsImage} alt="" />
-
-                            <a href="">Link</a>
+                            <img className='rounded' src="" alt="" />
                         </div>
+
+                        <Button radius="md" size="md" onClick={handleAppleyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
+                            {open ? "NO APLICAR" : "APLICAR"}
+                        </Button>
+
+                        {open ? <ResumeForm /> : null}
                     </Accordion.Panel>
                 </Accordion.Item>
 
                 <Accordion.Item value="Novedad 2" className='bg-white'>
                     <Accordion.Control>
-                        Novedad 2
+                        Oferta laboral 2
                     </Accordion.Control>
                     <Accordion.Panel>
                         <div className='flex flex-col gap-y-8'>
@@ -43,16 +53,20 @@ export function NewsSection() {
                                 ipsum odit ratione? Quisquam, dolores. Minus, delectus!
                             </p>
 
-                            <img className='rounded' src={newsImage} alt="" />
-
-                            <a href="">Link</a>
+                            <img className='rounded' src="" alt="" />
                         </div>
+
+                        <Button radius="md" size="md" onClick={handleAppleyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
+                            {open ? "NO APLICAR" : "APLICAR"}
+                        </Button>
+
+                        {open ? <ResumeForm /> : null}
                     </Accordion.Panel>
                 </Accordion.Item>
 
                 <Accordion.Item value="Novedad 3" className='bg-white'>
                     <Accordion.Control>
-                        Novedad 3
+                        Oferta laboral 3
                     </Accordion.Control>
                     <Accordion.Panel>
                         <div className='flex flex-col gap-y-8'>
@@ -63,13 +77,17 @@ export function NewsSection() {
                                 ipsum odit ratione? Quisquam, dolores. Minus, delectus!
                             </p>
 
-                            <img className='rounded' src={newsImage} alt="" />
-
-                            <a href="">Link</a>
+                            <img className='rounded' src="" alt="" />
                         </div>
+
+                        <Button radius="md" size="md" onClick={handleAppleyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
+                            {open ? "NO APLICAR" : "APLICAR"}
+                        </Button>
+
+                        {open ? <ResumeForm /> : null}
                     </Accordion.Panel>
                 </Accordion.Item>
             </Accordion>
-        </section>
+        </main>
     )
 }
