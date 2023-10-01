@@ -1,7 +1,7 @@
 import { TextInput, Textarea, Button, FileInput } from '@mantine/core';
 import { useForm } from '@mantine/form';
 
-export function ResumeForm() {
+export function ResumeForm({ title }) {
     const form = useForm({
         initialValues: { name: '', email: '', message: '', file: null },
 
@@ -18,9 +18,9 @@ export function ResumeForm() {
     }
 
     return (
-        <section id="contactSection" className='px-twoDotFivePercent py-24 text-center sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
+        <section id="contactSection" className='px-twoDotFivePercent text-center sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
             <h2 className="text-4xl font-bold text-[#004e91] mb-8 lg:text-5xl">
-                Ingresa tus datos
+                {title}
             </h2>
 
             <form onSubmit={form.onSubmit(handleSubmit)} className='flex flex-col gap-y-8'>

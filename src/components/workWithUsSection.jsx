@@ -5,7 +5,7 @@ import { useState } from 'react';
 export function WorkWithUsSection() {
     const [open, setOpen] = useState(false)
 
-    const handleAppleyButton = () => {
+    const handleAplyButton = () => {
         setOpen(!open)
     }
 
@@ -32,11 +32,11 @@ export function WorkWithUsSection() {
                             <img className='rounded' src="" alt="" />
                         </div>
 
-                        <Button radius="md" size="md" onClick={handleAppleyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
+                        <Button radius="md" size="md" onClick={handleAplyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
                             {open ? "NO APLICAR" : "APLICAR"}
                         </Button>
 
-                        {open ? <ResumeForm /> : null}
+                        {open ? <div className='py-12'><ResumeForm title={"Ingresa tus datos"} /></div> : null}
                     </Accordion.Panel>
                 </Accordion.Item>
 
@@ -56,11 +56,11 @@ export function WorkWithUsSection() {
                             <img className='rounded' src="" alt="" />
                         </div>
 
-                        <Button radius="md" size="md" onClick={handleAppleyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
+                        <Button radius="md" size="md" onClick={handleAplyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
                             {open ? "NO APLICAR" : "APLICAR"}
                         </Button>
 
-                        {open ? <ResumeForm /> : null}
+                        {open ? <div className='py-12'><ResumeForm title={"Ingresa tus datos"} /></div> : null}
                     </Accordion.Panel>
                 </Accordion.Item>
 
@@ -80,11 +80,11 @@ export function WorkWithUsSection() {
                             <img className='rounded' src="" alt="" />
                         </div>
 
-                        <Button radius="md" size="md" onClick={handleAppleyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
+                        <Button radius="md" size="md" onClick={handleAplyButton} className='bg-blue-600 hover:bg-blue-700 text-white'>
                             {open ? "NO APLICAR" : "APLICAR"}
                         </Button>
 
-                        {open ? <ResumeForm /> : null}
+                        {open ? <div className='py-12'><ResumeForm title={"Ingresa tus datos"} /></div> : null}
                     </Accordion.Panel>
                 </Accordion.Item>
             </Accordion>
