@@ -2,7 +2,7 @@ import lemaImage from '../assets/images/lemaDeEmpresa.png'
 
 export function AboutUsSection() {
     return (
-        <main className='flex flex-col items-center justify-center gap-y-32 text-center px-twoDotFivePercent py-64 sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
+        <main className='flex flex-col items-center justify-center gap-y-32 text-center px-twoDotFivePercent sm:px-fivePercent lg:px-tenPercent xl:px-fifteenPercent'>
             <h1 className="text-4xl font-bold text-blue-800 lg:text-5xl">
                 Nuestra Empresa
             </h1>
