@@ -2,7 +2,6 @@ import data from '../assets/data/hemostasis.json'
 
 import { Button } from '@mantine/core'
 import { AlertErrorComponent } from './alertErrorComponent';
-import { ContactSection } from './contactSection';
 
 import { useState } from 'react';
 
@@ -72,7 +71,7 @@ export function HemostasiaProducts() {
                                             <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-centerrounded-md bg-white' />
                                         </div>
 
-                                        <h3 className='text-blue-600 font-semibold text-2xl'>
+                                        <h3 className='text-blue-600 font-semibold text-2xl titleCards'>
                                             {product.name}
                                         </h3>
 
@@ -101,7 +100,7 @@ export function HemostasiaProducts() {
                         </section>
                     ))}
 
-                    <section className='text-blue-600 flex flex-col gap-y-16 items-center'>
+                    <section className='text-white flex flex-col gap-y-16 items-center bg-blue-800 px-10 py-20 rounded-lg'>
                         <h2 className='font-bold text-3xl text-center lg:text-4xl'>
                             {data.subTitle}
                         </h2>
@@ -111,18 +110,18 @@ export function HemostasiaProducts() {
                         </p>
 
                         <div className='flex flex-col gap-y-6 items-center justify-center'>
-                            <h3 className='text-blue-600 font-semibold text-2xl'>
+                            <h3 className='font-semibold text-2xl'>
                                 {data.subName}
                             </h3>
 
-                            <p className='text-violet-900 text-base text-center font-medium xl:text-lg'>
+                            <p className='text-green-500 text-base text-center font-medium xl:text-lg'>
                                 {data.typesDescription}
                             </p>
                         </div>
 
                         <div className='flex items-center justify-center gap-8 flex-wrap'>
                             {data.categories.map((reactivo) => (
-                                <div key={reactivo.id} className='w-60 flex flex-col gap-y-6 items-center justify-center bg-blue-800/20 border-blue-800 border rounded-2xl p-6'>
+                                <div key={reactivo.id} className='w-60 flex flex-col gap-y-6 items-center justify-center bg-white border-blue-800 border rounded-2xl p-6'>
                                     <h4 className='text-black font-semibold text-xl'>
                                         {reactivo.name}
                                     </h4>
@@ -135,7 +134,7 @@ export function HemostasiaProducts() {
                                         )) : null}
 
                                         {reactivo.type2 ? reactivo.type2.map((type2) => (
-                                            <p key={type2.id} className='text-violet-900 font-medium'>
+                                            <p key={type2.id} className='text-green-500 font-medium'>
                                                 {type2.name}
                                             </p>
                                         )) : null}
@@ -144,8 +143,6 @@ export function HemostasiaProducts() {
                             ))}
                         </div>
                     </section>
-
-                    <ContactSection />
 
                 </main>
                 : <AlertErrorComponent />}
