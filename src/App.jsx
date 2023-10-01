@@ -5,12 +5,28 @@ import { HemostasiaPage } from './pages/hemostasiaPage'
 import { AboutUsPage } from './pages/aboutUsPage'
 import { WorkWithUsPage } from './pages/workWithUsPage'
 
-import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import { Routes, Route, BrowserRouter, useLocation } from 'react-router-dom'
+
+import { useEffect } from 'react';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 
 function App() {
 
   return (
     <BrowserRouter>
+
+      <ScrollToTop />
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/hemostasia" element={<HemostasiaPage />} />
