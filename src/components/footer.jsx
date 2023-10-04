@@ -31,6 +31,11 @@ export function Footer() {
                                     Hemostasia
                                 </Link>
                             </Menu.Item>
+                            <Menu.Item className='text-base text-center font-bold hover:underline hover:decoration-blue-800 text-blue-800 transition-all duration-150'>
+                                <Link to="/Microscopios">
+                                    Microscopios
+                                </Link>
+                            </Menu.Item>
 
                             <Menu.Divider />
 

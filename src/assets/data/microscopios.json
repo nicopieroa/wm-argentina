@@ -1,0 +1,107 @@
+{
+  "title": "Microscopios",
+  "description": "Evident ofrece una variedad de microscopios adecuados para una gran diversidad de usos, ya sea en el sector educativo, como en el de capacitación, laboratorio e investigación de vanguardia de las ciencias de la vida. Explore más adelante nuestra selección de microscopios verticales, estereoscópicos, de superresolución, de escaneo láser e industriales para hallar el que mejor se adapte a sus necesidades.",
+  "image": {
+    "url": "/microscopios/headerImage.jpg",
+    "alt": "Cinco microscopios sobre una mesa"
+  },
+  "productsCategories": [
+    {
+      "id": 1,
+      "name": "Microscopios Verticales",
+      "description": "Los microscopios verticales de Olympus ofrecen un excelente diseño ergonómico y una óptica de alta calidad para una elevada reproducibilidad de colores. Las opciones de configuración modular favorecen el empleo de diferentes estilos de observación como el campo claro, campo oscuro, polarización, contraste de fase y fluorescencia. Adquiera el modelo idóneo a partir de una variedad de microscopios verticales automáticos y manuales para su investigación patológica y citológica, investigación clínica y de laboratorio, entre otras.",
+      "products": [
+        {
+          "id": 1,
+          "name": "Microscopio de fluorescencia automatizado BX63",
+          "description": "Sistema completamente motorizado que permite automatizar experimentos multidimensionales complejos. El accionamiento Z motorizado más preciso. Alta estabilidad gracias al diseño de platina fija.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/BX63.jpeg",
+            "alt": "Microscopio de fluorescencia automatizado BX63"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/bx63/"
+        },
+        {
+          "id": 2,
+          "name": "Microscopio de fluorescencia semimotorizado BX53",
+          "description": "Iluminación LED de alta luminosidad con colores vivos. Concepto modular que permite motorizar los componentes individualmente. Fácil adquisición de imágenes por fluorescencia multicolor.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/BX53.jpg",
+            "alt": "Microscopio de fluorescencia semimotorizado BX53"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/bx53f2/"
+        },
+        {
+          "id": 3,
+          "name": "Microscopio modular manual BX43",
+          "description": "Iluminación LED de colores reales. Gestor de intensidad de luz. Permite un control sencillo del contraste.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/BX43.jpg",
+            "alt": "Microscopio modular manual BX43"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/bx43/"
+        },
+        {
+          "id": 4,
+          "name": "Microscopio clínico BX46",
+          "description": "Diseño ergonómico inigualable. El primer tubo de observación telescópico que se inclina y se eleva. Platina fija ultra baja.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/BX46.jpg",
+            "alt": "Microscopio clínico BX46"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/bx46/"
+        },
+        {
+          "id": 5,
+          "name": "Microscopio biológico CX43",
+          "description": "Estructura ergonómica. Ideal para aplicaciones versátiles. Iluminación LED de larga duración.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/CX43.jpg",
+            "alt": "Microscopio biológico CX43"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/cx43/"
+        },
+        {
+          "id": 6,
+          "name": "Microscopio biológico CX33",
+          "description": "Estructura ergonómica. Iluminación LED de larga duración.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/CX33.jpg",
+            "alt": "Microscopio biológico CX33"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/cx33/"
+        },
+        {
+          "id": 7,
+          "name": "Microscopio biológico CX23",
+          "description": "Diseño estructural diverso y fácil de usar. Excelente rendimiento óptico. Iluminación LED de larga duración.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/CX23.jpg",
+            "alt": "Microscopio biológico CX23"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/cx23/"
+        },
+        {
+          "id": 8,
+          "name": "Microscopio de polarización BX53-P",
+          "description": "Microscopio de polarización con funciones completas. Imágenes más nítidas con la óptica UIS2. Diseñado ergonómicamente para tareas de investigación.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/BX53-P.jpg",
+            "alt": "Microscopio de polarización BX53-P"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/bx53f2-p/"
+        },
+        {
+          "id": 9,
+          "name": "Microscopio de platina fija BX51WI",
+          "description": "Ideal para tejido cerebral y electrofisiología in-vivo. Óptica de inmersión en agua diseñada para aplicaciones de electrofisiología. Estabilidad y fiabilidad gracias al concepto de platina fija.",
+          "image": {
+            "url": "/microscopios/microscopiosVerticales/BX51WI.jpg",
+            "alt": "Microscopio de platina fija BX51WI"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/bxwi/"
+        }
+      ]
+    }
+  ]
+}
