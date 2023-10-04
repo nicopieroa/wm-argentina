@@ -68,7 +68,7 @@ export function HemostasiaProducts() {
                                 {productsCategories.products.map((product) => (
                                     <div key={product.id} className='w-80 flex flex-col gap-y-6 items-center justify-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
                                         <div className='w-full h-44 rounded-md border'>
-                                            <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-centerrounded-md bg-white' />
+                                            <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-center rounded-md bg-white' />
                                         </div>
 
                                         <h3 className='text-blue-600 font-semibold text-2xl titleCards'>
@@ -100,7 +100,7 @@ export function HemostasiaProducts() {
                         </section>
                     ))}
 
-                    <section className='text-white flex flex-col gap-y-16 items-center bg-blue-800 px-10 py-20 rounded-lg'>
+                    <section className='text-white flex flex-col gap-y-16 items-center bg-blue-900 px-10 py-20 rounded-lg'>
                         <h2 className='font-bold text-3xl text-center lg:text-4xl'>
                             {data.subTitle}
                         </h2>
@@ -119,9 +119,9 @@ export function HemostasiaProducts() {
                             </p>
                         </div>
 
-                        <div className='flex items-center justify-center gap-8 flex-wrap'>
+                        <div className='flex items-center justify-center gap-4 flex-wrap'>
                             {data.categories.map((reactivo) => (
-                                <div key={reactivo.id} className='w-60 flex flex-col gap-y-6 items-center justify-center bg-white border-blue-800 border rounded-2xl p-6'>
+                                <div key={reactivo.id} className='w-60 h-40 overflow-y-auto overflow-x-hidden flex flex-col gap-y-4 items-center bg-white border-blue-800 border rounded-md p-6 scrollBarStyles'>
                                     <h4 className='text-black font-semibold text-xl'>
                                         {reactivo.name}
                                     </h4>
@@ -139,6 +139,94 @@ export function HemostasiaProducts() {
                                             </p>
                                         )) : null}
                                     </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+
+                    <section className='text-blue-600 flex flex-col gap-y-16 items-center px-10 py-20 rounded-lg'>
+                        <h2 className='font-bold text-3xl text-center lg:text-4xl'>
+                            {data.subTitle2}
+                        </h2>
+
+                        <p className='text-base text-center font-medium xl:text-lg'>
+                            {data.description2}
+                        </p>
+
+                        <div className='flex items-center justify-center gap-4 flex-wrap'>
+                            {data.ilineProducts.map((product) => (
+                                <div key={product.id} className='w-80 flex flex-col gap-y-6 items-center justify-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
+                                    <div className='w-full h-60 rounded-md border'>
+                                        <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-cover rounded-md bg-white' />
+                                    </div>
+
+                                    <h3 className='text-blue-600 font-semibold text-2xl titleCards'>
+                                        {product.name}
+                                    </h3>
+
+                                    <div>
+                                        <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2 text-blue-600`}>
+                                            {product.description}
+                                        </p>
+
+                                        <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
+                                            {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
+                                        </Button>
+                                    </div>
+
+                                    {product.technicalSheet ?
+                                        <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
+                                        : null}
+
+                                    {product.moreInformationUrl ?
+                                        <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
+                                            Más información
+                                        </a>
+                                        : null}
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+
+                    <section className='text-blue-600 flex flex-col gap-y-16 items-center px-10 py-20 rounded-lg'>
+                        <h2 className='font-bold text-3xl text-center lg:text-4xl'>
+                            {data.subTitle3}
+                        </h2>
+
+                        <p className='text-base text-center font-medium xl:text-lg'>
+                            {data.description3}
+                        </p>
+
+                        <div className='flex items-center justify-center gap-4 flex-wrap'>
+                            {data.hemoHubProducts.map((product) => (
+                                <div key={product.id} className='w-80 flex flex-col gap-y-6 items-center justify-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
+                                    <div className='w-full h-44 rounded-md border'>
+                                        <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-cover rounded-md bg-white' />
+                                    </div>
+
+                                    <h3 className='text-blue-600 font-semibold text-2xl titleCards'>
+                                        {product.name}
+                                    </h3>
+
+                                    <div>
+                                        <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2 text-blue-600`}>
+                                            {product.description}
+                                        </p>
+
+                                        <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
+                                            {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
+                                        </Button>
+                                    </div>
+
+                                    {product.technicalSheet ?
+                                        <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
+                                        : null}
+
+                                    {product.moreInformationUrl ?
+                                        <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
+                                            Más información
+                                        </a>
+                                        : null}
                                 </div>
                             ))}
                         </div>

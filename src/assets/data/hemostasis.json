@@ -109,7 +109,7 @@
   "subTitle": "Reactivos Hemosil",
   "reactivosDescription": "El panel de pruebas de Hemostasia automatizadas más completo, con reactivos HemosIL líquidos listos para usar, ofrece resultados rápidos y precisos para patologías hemorrágicas y trombóticas. Esto mejora la eficacia del laboratorio y la atención al paciente al eliminar el tiempo de reconstitución y el pipeteo manual. Las pruebas HemosIL cubren el 91 % de las pruebas de Hemostasia, incluyendo TP, TTPA, Dímero-D y Antitrombina, y también mejoran la gestión de otras patologías hemorrágicas y trombóticas.",
   "subName": "General Screening and Anticoagulant Monitoring",
-  "typesDescription": "Liquid, ready-to-use format * Not 510(k) cleared, not available in all countries",
+  "typesDescription": "Liquid, ready-to-use format * Not 510(k) cleared, not available in all countries. Consultar disponibilidad",
   "categories": [
     {
       "id": 1,
@@ -421,6 +421,60 @@
         }
       ],
       "type2": ""
+    }
+  ],
+
+  "subTitle2": "Iline",
+  "description2": "Soluciones inteligentes para pacientes y profesionales de la salud",
+  "ilineProducts": [
+    {
+      "id": 1,
+      "name": "Sistema microINR",
+      "image": {
+        "url": "/hemostasia-trombosis/Iline/ilineMicroSystems-microInr.png",
+        "alt": "Monitor micro INR"
+      },
+      "description": "microINR es un dispositivo médico de diagnóstico in-vitro, destinado a monitorizar la terapia anticoagulante oral (TAO) con fármacos antagonistas de la vitamina K. El Sistema microINR hace referencia al monitor y a las tiras analíticas (microINR Chips). El sistema ofrece la cuantificación del tiempo de protrombina (TP) en unidades INR (Ratio Internacional Normalizado) a partir de sangre capilar fresca obtenida mediante punción digital. El Sistema microINR ha sido desarrollado con el objetivo de cubrir las necesidades de todos los modelos existentes de monitorización de la TAO. Su uso está aprobado tanto por parte de profesionales en el punto de atención sanitaria (POCT) como por parte del paciente en un modelo de autotest o autocontrol. El Sistema utiliza tecnología propia patentada y proporciona resultados precisos y reproducibles, tal y como demuestran extensos estudios de evaluación independientes. Seguridad y Fiabilidad: Estrategia de controles de calidad multinivel, Identificación de lote automática, Batería de litio recargable, Facilidad de uso",
+      "technicalSheet": "",
+      "moreInformationUrl": "https://www.werfen.com/es/es/hemostasia/microinr"
+    },
+    {
+      "id": 2,
+      "name": "Sistema microINR Link",
+      "image": {
+        "url": "/hemostasia-trombosis/Iline/ilineMicroSystems-microInrLink.png",
+        "alt": "Monitor microINR Link"
+      },
+      "description": "El monitor microINR Link mantiene todas las ventajas del monitor clásico microINR (totalmente automático, pasos de procesamiento mínimos, mínimo volumen de muestra requerido y estrategia de control de calidad multinivel) y añade tecnología inalábrica integrada Bluetooth® Low Energy 5.0. Conectividad inalámbrica mediante tecnología Bluetooth Low Energy 5.0: Consumo de batería extremadamente bajo, Transferencia de datos a mayor velocidad, Seguridad reforzada, Conexiones robustas y fiables en interior y exterior, Mejora en la coexistencia con otras redes inalámbricas, Mayor capacidad de datos. Facilidad de uso: Sencillo emparejamiento, Bluetooth de última generación, Transferencia automática del resultado, Identificación de lote automática",
+      "technicalSheet": "",
+      "moreInformationUrl": ""
+    },
+    {
+      "id": 3,
+      "name": "Sistema microINR Expert",
+      "image": {
+        "url": "/hemostasia-trombosis/Iline/ilineMicroSystems-microInrExpert.png",
+        "alt": "Monitor microINR Link"
+      },
+      "description": "El monitor microINR Expert es un coagulómetro profesional que determina valores de PT/INR e incorpora múltiples opciones de conectividad, una completa trazabilidad y un innovador y sofisticado software. Gracias a la flexibilidad que proporcionan los ajustes configurables, microINR Expert es la herramienta adecuada para monitorizar la terapia anticoagulante oral en una gran variedad de localizaciones y mercados. Tecnología de última generación: Conectividad: Wi-Fi, Bluetooth LE 5.0. Ethernet, ID de operador e ID de paciente Lector de código de barras Identificación automática de lote de chip Controles de calidad multinivel integrados Pantalla táctil capacitiva de alta resolución Proceso de test guiado (vídeo y señales acústicas) Mensajes de resolución de errores integrados Fácilmente transportable (compacto y ligero) Innovación: Conectividad a varios niveles, Trazabilidad completa, QC multinivel integrados, Batería de litio recargable",
+      "technicalSheet": "",
+      "moreInformationUrl": ""
+    }
+  ],
+
+  "subTitle3": "Hemohub",
+  "description3": "Sistema de gestión que permite un rendimiento operativo incomparable y un apoyo a la toma de decisiones clínicas, todo desde una única estación de trabajo. HemoHub es el sistema inteligente de gestión del Laboratorio de Hemostasia de Werfen: potencia la eficacia operativa, mejora el flujo de trabajo y la toma de decisiones y, a fin de cuentas, la atención al paciente. Gestión centralizada de la sección de Hemostasia. ",
+  "hemoHubProducts": [
+    {
+      "id": 1,
+      "name": "HemoHub",
+      "image": {
+        "url": "/hemostasia-trombosis/Hemohub/hemohub-hero.png",
+        "alt": ""
+      },
+      "description": "Solución personalizada para la gestión del flujo de trabajo, administrar el control de calidad y control de los valores críticos. HemoHub conecta todos los analizadores ACL, permitiendo a los usuarios ver de manera centralizada los resultados críticos y el estado de los analizadores en tiempo real, gestionar el control de calidad de cada analizador, apoyar la toma de decisiones clínicas y optimizar las operaciones y facilitar la acreditación. CARACTERÍSTICAS: Flexibilidad de gestión. A partir de una interfaz centralizada, los usuarios pueden gestionar el sistema desde diversas estacions de trabajo. Escalable para un número ilimitado de pacientes, analíticas, conexiones de analizador y con un panel de control configurable por KPI, HemoHub ofrece más de 100 formatos de informes estadísticos configurables. Flujo de trabajo optimizado. HemoHub dispone de un proceso muy sencillo para la repetición de pruebas y pruebas reflejas. Dispone de indicadores de alerta en las muestras así como una gestión simplificada del banco de muestras. Además, los usuarios pueden comparar el QC del analizador así como el QC interno, para una gestión más eficaz del laboratorio. Resultados de calidad. Ofrece una gestión centralizada del QC, acceso sencillo a las historias de resultados del paciente y a las gestión de reglas. HemoHub ayuda a garantizar la calidad de los resultados del paciente. Adicionalmente, la ayuda a la acreditación integrada en el sistema, facilita el cumplimiento de la misma.",
+      "technicalSheet": "",
+      "moreInformationUrl": ""
     }
   ]
 }
