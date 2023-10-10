@@ -9,6 +9,7 @@ export default {
       width: {
         13: "50px",
         85: "356px",
+        600: "600px",
       },
       height: {
         85: "356px",

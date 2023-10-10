@@ -8,21 +8,6 @@ import { useState } from 'react';
 export function MicroscopiosProducts() {
     const [expandedCards, setExpandedCards] = useState({});
 
-    // function DownloadPdfButton({ pdfUrl, pdfName }) {
-    //     const handleDownload = () => {
-    //         const link = document.createElement('a');
-    //         link.href = pdfUrl;
-    //         link.target = '_blank';
-    //         link.download = pdfName;
-    //         link.click();
-    //     };
-
-    //     return (
-    //         <Button className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={handleDownload}>
-    //             Descargar ficha técnica
-    //         </Button>);
-    // }
-
     const handleVerMásButton = (productId) => {
         setExpandedCards((prevExpandedCards) => ({
             ...prevExpandedCards,
@@ -66,34 +51,33 @@ export function MicroscopiosProducts() {
 
                             <div className='flex items-center justify-center gap-8 flex-wrap'>
                                 {productsCategories.products.map((product) => (
-                                    <div key={product.id} className='w-80 flex flex-col gap-y-6 items-center justify-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
-                                        <div className='w-full h-85 rounded-md border'>
+                                    <div key={product.id} className='md:w-600 flex flex-col w-80 md:flex-row gap-6 items-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
+                                        <div className='md:w-1/2 w-full h-85 rounded-md border'>
                                             <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-cover rounded-md bg-white' />
                                         </div>
 
-                                        <h3 className='text-blue-600 font-semibold text-2xl titleCards'>
-                                            {product.name}
-                                        </h3>
+                                        <div className='flex flex-col gap-y-4 md:w-1/2'>
+                                            <h3 className='text-blue-600 font-semibold text-2xl '>
+                                                {product.name}
+                                            </h3>
 
-                                        <div>
-                                            <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2 text-blue-600`}>
-                                                {product.description}
-                                            </p>
+                                            <div>
+                                                <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2 text-blue-600`}>
+                                                    {product.description}
+                                                </p>
 
-                                            <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
-                                                {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
-                                            </Button>
+                                                <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
+                                                    {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
+                                                </Button>
+                                            </div>
+
+                                            {product.moreInformationUrl ?
+                                                <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
+                                                    Más información
+                                                </a>
+                                                : null}
+
                                         </div>
-
-                                        {/* {product.technicalSheet ?
-                                            <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
-                                            : null} */}
-
-                                        {product.moreInformationUrl ?
-                                            <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
-                                                Más información
-                                            </a>
-                                            : null}
                                     </div>
                                 ))}
                             </div>

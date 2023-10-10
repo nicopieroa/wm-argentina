@@ -102,6 +102,140 @@
           "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/upright/bxwi/"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "Estereomicroscopios",
+      "description": "Los estereomicroscopios de Olympus combinan objetivos ópticos de elevada calidad con una ergonomía dirigida a preservar la comodidad durante las observaciones y la obtención de una excelente calidad de imágenes bajo condiciones de alta y baja magnificación. Agilice su investigación rutinaria con un amplio nivel de aumento (zoom) para visualizaciones de grado macrométrico a micrométrico. Consulte nuestros modelos de estereomicroscopios, idóneos para la observación de campo claro, oblicua y fluorescencia avanzada.",
+      "products": [
+        {
+          "id": 1,
+          "name": "Estereomicroscopio modular de investigación SZX16",
+          "description": "Procese imágenes desde el nivel macro a partir de organismos enteros hasta el nivel micro de estructuras celulares individuales con el estereomicroscopio para la investigación SZX16. Su amplio índice de zoom (16.4:1) habilita una escala de magnificación de 7x a 115x con un objetivo de 1X, y hasta de 230x con un objetivo de 2X. Observe finos detalles claramente gracias a los objetivos apocromáticos, los cuales reducen la aberración cromática en toda la escala de magnificaciones, y a su apertura numérica (A. N.) de 0.3 que proporciona una alta resolución de 900 pares de líneas por mm.",
+          "image": {
+            "url": "/microscopios/estereomicroscopios/SZX16.jpg",
+            "alt": "Estereomicroscopio modular de investigación SZX16"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/stereo/szx16/"
+        },
+        {
+          "id": 2,
+          "name": "Estereomicroscopio modular de investigación SZX10",
+          "description": "El estereomicroscopio SZX10 es un sistema rentable para la investigación rutinaria. Posibilita un procesamiento de imágenes de campo oscuro y polarización, con una apertura numérica de hasta 0.2, un índice de zoom de 10:1 y el sistema óptico galileano para minimizar la distorsión. Obtenga una vista natural de su muestra gracias a la excelente representación estereoscópica y de color. El amplio índice de zoom proporciona una escala de magnificación de 6.2x a 63x con un objetivo de 1X, y entre 123x y 115x con el objetivo 2X.",
+          "image": {
+            "url": "/microscopios/estereomicroscopios/SZX10.jpg",
+            "alt": "Estereomicroscopio modular de investigación SZX10"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/stereo/szx10/"
+        },
+        {
+          "id": 3,
+          "name": "Sistema de microscopio estereoscópico SZX7",
+          "description": "El estereomicroscopio SZX7 es un sistema rentable, diseñado para un procesamiento de imágenes cómodo y de alta calidad para las ciencias de la vida. Tanto su óptica de alta fidelidad de color como su sistema óptico galileano contribuyen a un excelente rendimiento del procesamiento de imágenes. Este sistema ofrece un amplio índice de zoom 7:1, lo que conlleva a una escala de magnificación de 8x a 56x con un objetivo de 1X, y hasta 112x con un objetivo de 2X. La iluminación LED transmitida/reflejada viene integrada en una base delgada y abierta del sistema, lo que ofrece un fácil acceso a la muestra.",
+          "image": {
+            "url": "/microscopios/estereomicroscopios/",
+            "alt": "Estereomicroscopio modular de investigación SZX27"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/stereo/szx7/"
+        },
+        {
+          "id": 4,
+          "name": "Estereomicroscopio con zoom SZ61/SZ51",
+          "description": "Obtenga resultados coherentes y precisos gracias a esta gama de esteromicroscopios de zoom. Optimizados para mantener la comodidad en la investigación de rutina, cada sistema presenta oculares de baja tensión, un soporte LED universal que ofrece un rápido acceso a la muestra, y un sistema óptico Greenough dedicado a otorgar una excelente planitud de imagen. La escala de magnificación parte de 6.7x a 45x en el caso del sistema SZ61, y de 8x a 40x en el sistema SZ51 (ambos con oculares de 10X).",
+          "image": {
+            "url": "/microscopios/estereomicroscopios/",
+            "alt": "Estereomicroscopio con zoom SZ61/SZ51"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/stereo/sz61/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Microscopios invertidos",
+      "description": "Nuestra línea de microscopios invertidos de alto rendimiento ofrece la precisión y la repetibilidad necesarias para llevar a cabo experimentos de investigación eficientes. Descubra la diversidad de sistemas microscópicos invertidos de Olympus a través de sus soluciones dedicadas a la superresolución, compuestos, procesamiento de imágenes TIRF y microscopía confocal. Encuentre los modelos de microscopios de alta resolución idóneos para sus experimentos de rutina, procesamientos de imágenes de fluorescencia y observaciones dinámicas de células vivas.",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sistema de procesamiento de imágenes digitales APX100",
+          "description": "Dedicar más tiempo a la investigación. Flujo de trabajo fácil y sencillo, calidad de imagen excepcional. Gestión de datos rápida y eficiente.",
+          "image": {
+            "url": "/microscopios/microscopiosInvertidos/APX100.jpg",
+            "alt": "Sistema de procesamiento de imágenes digitales APX100"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/solutions-based-systems/apx100/"
+        },
+        {
+          "id": 2,
+          "name": "Sistema microscópico compuesto IXplore Standard",
+          "description": "Repetibilidad y precisión para tareas estándar de imagen. Benefíciese de las mismas funcionalidades ópticas de los sistemas IXplore de alta gama. Migre fácilmente a la funcionalidad codificada para potenciar la reproducibilidad de sus experimentos. Obtenga imágenes de alta calidad, incluso con recipientes de cultivo celular estándar y objetivos especiales.",
+          "image": {
+            "url": "/microscopios/microscopiosInvertidos/IXploreStandard.jpg",
+            "alt": "Sistema microscópico compuesto IXplore Standard"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/inverted/ixplore-standard/"
+        },
+        {
+          "id": 3,
+          "name": "Sistema microscópico automatizado IXplore Pro",
+          "description": "Observación multidimensional automática con una configuración sencilla de los experimentos. Mejore sus estadísticas con análisis de placas multipocillo. Adquiera imágenes panorámicas fluorescentes de grandes muestras, como las rodajas de tejido cerebral. Aumente la resolución y cree secciones ópticas con deconvolución. Create 3D optical sections and enhance resolution with TruSight.",
+          "image": {
+            "url": "/microscopios/microscopiosInvertidos/IXplorePro.jpg",
+            "alt": "Sistema microscópico compuesto IXplore Pro"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/inverted/ixplore-pro/"
+        },
+        {
+          "id": 4,
+          "name": "Sistema microscópico para imágenes de células vivas IXplore Live",
+          "description": "Utilice el controlador en tiempo real de Olympus para los datos relevantes a nivel fisiológico con una mínima alteración celular. Mantenga la viabilidad celular durante el procesamiento de imágenes con varias opciones de control ambiental. Mantenga el enfoque de forma precisa y fiable en experimentos a intervalos gracias al sistema de enfoque automático (compensación de deriva en Z) del hardware Olympus. Descubra la forma real de sus células gracias a los objetivos de inmersión de silicona de Olympus.",
+          "image": {
+            "url": "/microscopios/microscopiosInvertidos/IXploreLive.jpg",
+            "alt": "Sistema microscópico para imágenes de células vivas IXplore Live"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/inverted/ixplore-live/"
+        },
+        {
+          "id": 5,
+          "name": "Sistema microscópico para procesamiento TIRF IXplore TIRF",
+          "description": "Dedicado a experimentos que tratan la dinámica de membranas, la detección de moléculas individuales y la colocalización, el sistema microscópico IXplore TIRF facilita un procesamiento de imágenes multicolor simultáneo de fluorescencia de reflexión interna total (TIRF) hasta con cuatro colores y alta estabilidad. El sistema cellTIRF proporciona un control motorizado, estable e individual del ángulo del láser; esto favorece la penetración regular de onda evanescente en imágenes de alto contraste y bajo ruido. Nuestros objetivos TIRF ofrecen una óptima relación entre señal y ruido, una alta apertura numérica, y collares de corrección para distintos espesores y temperaturas de cubreobjetos de vidrio.",
+          "image": {
+            "url": "/microscopios/microscopiosInvertidos/IXploreTIRF.jpg",
+            "alt": "Sistema microscópico para procesamiento TIRF IXplore TIRF"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/inverted/ixplore-tirf/"
+        },
+        {
+          "id": 6,
+          "name": "Sistema microscópico para imágenes confocales IXplore Spin",
+          "description": "El sistema IXplore Spin presenta una unidad confocal de disco giratorio para habilitar una rápida adquisición de imágenes 3D, un amplio campo de visual y una viabilidad celular prolongada en experimentos a intervalos. Los investigadores pueden usarlo para llevar a cabo un procesamiento de imágenes confocal 3D con alta resolución y contraste en profundidades aún mayores a fin de adquirir imágenes de muestras aún más gruesas. El disco giratorio también permite reducir el fotoblanqueo y la fototoxicidad de las muestras bajo excitación.",
+          "image": {
+            "url": "/microscopios/microscopiosInvertidos/IXploreSpin.jpg",
+            "alt": "Sistema microscópico para imágenes confocales IXplore Spin"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/inverted/ixplore-spin/"
+        },
+        {
+          "id": 7,
+          "name": "Sistema microscópico con súper resolución IXplore SpinSR",
+          "description": "El sistema IXplore SpinSR es un microscopio confocal de superresolución optimizado para el procesamiento de imágenes 3D de células vivas. Al igual que el sistema IXplore Spin, este sistema presenta una unidad de disco giratorio para un procesamiento de imágenes 3D rápido que evita fototoxicidad y fotoblanqueo al mismo tiempo. Además, alcanza imágenes de superresolución de hasta 120 nm en XY, y permite alternar entre la microscopía de campo amplio, confocal y superresolución con tan sólo un clic de botón.",
+          "image": {
+            "url": "/microscopios/microscopiosInvertidos/IXploreSpinSR.jpg",
+            "alt": "Sistema microscópico con súper resolución IXplore SpinSR"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/inverted/ixplore-spinsr/"
+        },
+        {
+          "id": 8,
+          "name": "Microscopio compacto para cultivos celulares CKX53",
+          "description": "El microscopio CKX53 facilita el flujo de trabajo de cultivos celulares y tisulares; simplifica pasos como la observación de células vivas, el muestreo y la manipulación de células, la captura de imágenes, y la observación de fluorescencia. Su sistema de contraste de fase integrado, su diseño ergonómico y compacto, como también su rendimiento estable, facilitan una observación de células eficiente. El portamuestras universal y la platina expandible admiten una amplia variedad de recipientes de cultivo celular dotados de diferentes tamaños.",
+          "image": {
+            "url": "/microscopios/microscopiosInvertidos/IXploreSpinSR.jpg",
+            "alt": "Microscopio compacto para cultivos celulares CKX53"
+          },
+          "moreInformationUrl": "https://www.olympus-lifescience.com/es/microscopes/inverted/ckx53/"
+        }
+      ]
     }
   ]
 }
