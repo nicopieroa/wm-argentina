@@ -49,11 +49,11 @@ export function MicroscopiosProducts() {
                                 {productsCategories.description}
                             </p>
 
-                            <div className='flex items-center justify-center gap-8 flex-wrap'>
+                            <div className='flex items-center justify-center gap-4 flex-wrap'>
                                 {productsCategories.products.map((product) => (
                                     <div key={product.id} className='md:w-600 flex flex-col w-80 md:flex-row gap-6 items-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
                                         <div className='md:w-1/2 w-full h-85 rounded-md border'>
-                                            <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-cover rounded-md bg-white' />
+                                            <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-center rounded-md bg-white' />
                                         </div>
 
                                         <div className='flex flex-col gap-y-4 md:w-1/2'>
@@ -76,7 +76,6 @@ export function MicroscopiosProducts() {
                                                     Más información
                                                 </a>
                                                 : null}
-
                                         </div>
                                     </div>
                                 ))}

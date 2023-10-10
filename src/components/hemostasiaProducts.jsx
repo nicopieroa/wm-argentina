@@ -66,34 +66,36 @@ export function HemostasiaProducts() {
 
                             <div className='flex items-center justify-center gap-8 flex-wrap'>
                                 {productsCategories.products.map((product) => (
-                                    <div key={product.id} className='w-80 flex flex-col gap-y-6 items-center justify-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
-                                        <div className='w-full h-44 rounded-md border'>
+                                    <div key={product.id} className='w-80 md:w-600 flex flex-col md:flex-row gap-6 items-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
+                                        <div className='w-full md:1/2 h-60 rounded-md border'>
                                             <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-center rounded-md bg-white' />
                                         </div>
 
-                                        <h3 className='text-blue-600 font-semibold text-2xl titleCards'>
-                                            {product.name}
-                                        </h3>
+                                        <div className='flex flex-col gap-y-4 md:w-1/2'>
+                                            <h3 className='text-blue-600 font-semibold text-2xl '>
+                                                {product.name}
+                                            </h3>
 
-                                        <div>
-                                            <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2 text-blue-600`}>
-                                                {product.description}
-                                            </p>
+                                            <div>
+                                                <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2 text-blue-600`}>
+                                                    {product.description}
+                                                </p>
 
-                                            <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
-                                                {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
-                                            </Button>
+                                                <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
+                                                    {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
+                                                </Button>
+                                            </div>
+
+                                            {product.technicalSheet ?
+                                                <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
+                                                : null}
+
+                                            {product.moreInformationUrl ?
+                                                <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
+                                                    Más información
+                                                </a>
+                                                : null}
                                         </div>
-
-                                        {product.technicalSheet ?
-                                            <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
-                                            : null}
-
-                                        {product.moreInformationUrl ?
-                                            <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
-                                                Más información
-                                            </a>
-                                            : null}
                                     </div>
                                 ))}
                             </div>
@@ -155,34 +157,36 @@ export function HemostasiaProducts() {
 
                         <div className='flex items-center justify-center gap-4 flex-wrap'>
                             {data.ilineProducts.map((product) => (
-                                <div key={product.id} className='w-80 flex flex-col gap-y-6 items-center justify-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
-                                    <div className='w-full h-60 rounded-md border'>
+                                <div key={product.id} className='w-80 md:w-600 flex flex-col md:flex-row gap-6 items-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
+                                    <div className='w-full md:w-1/2 h-80 rounded-md border'>
                                         <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-cover rounded-md bg-white' />
                                     </div>
 
-                                    <h3 className='text-blue-600 font-semibold text-2xl titleCards'>
-                                        {product.name}
-                                    </h3>
+                                    <div className='flex flex-col gap-y-4 md:w-1/2'>
+                                        <h3 className='text-blue-600 font-semibold text-2xl'>
+                                            {product.name}
+                                        </h3>
 
-                                    <div>
-                                        <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2 text-blue-600`}>
-                                            {product.description}
-                                        </p>
+                                        <div>
+                                            <p className={`${expandedCards[product.id] ? '' : 'textDescriptionCard'} mb-2 text-blue-600`}>
+                                                {product.description}
+                                            </p>
 
-                                        <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
-                                            {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
-                                        </Button>
+                                            <Button size="xs" compact className='text-white bg-blue-600 hover:text-blue-600 hover:bg-transparent border-blue-600 transition-all duration-150' onClick={() => handleVerMásButton(product.id)}>
+                                                {expandedCards[product.id] ? 'Ver menos' : 'Ver más'}
+                                            </Button>
+                                        </div>
+
+                                        {product.technicalSheet ?
+                                            <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
+                                            : null}
+
+                                        {product.moreInformationUrl ?
+                                            <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
+                                                Más información
+                                            </a>
+                                            : null}
                                     </div>
-
-                                    {product.technicalSheet ?
-                                        <DownloadPdfButton pdfUrl={product['technical-sheet']} pdfName={`${product.name}.pdf`} />
-                                        : null}
-
-                                    {product.moreInformationUrl ?
-                                        <a href={product['moreInformationUrl']} onClick={handleLinkClick} target='_blank' rel='noreferrer' className='text-blue-600 bg-transparent border rounded-3xl border-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-150 px-4 py-2 font-semibold text-sm'>
-                                            Más información
-                                        </a>
-                                        : null}
                                 </div>
                             ))}
                         </div>
@@ -204,7 +208,7 @@ export function HemostasiaProducts() {
                                         <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-cover rounded-md bg-white' />
                                     </div>
 
-                                    <h3 className='text-blue-600 font-semibold text-2xl titleCards'>
+                                    <h3 className='text-blue-600 font-semibold text-2xl'>
                                         {product.name}
                                     </h3>
 
