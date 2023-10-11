@@ -121,9 +121,9 @@ export function HemostasiaProducts() {
                             </p>
                         </div>
 
-                        <div className='flex items-center justify-center gap-4 flex-wrap'>
+                        <div className='flex  justify-center gap-2 flex-wrap'>
                             {data.categories.map((reactivo) => (
-                                <div key={reactivo.id} className='w-60 h-40 overflow-y-auto overflow-x-hidden flex flex-col gap-y-4 items-center bg-white border-blue-800 border rounded-md p-6 scrollBarStyles'>
+                                <div key={reactivo.id} className='w-60  flex flex-col gap-y-4 justify-center bg-white border-blue-800 border rounded-md p-4 scrollBarStyles'>
                                     <h4 className='text-black font-semibold text-xl'>
                                         {reactivo.name}
                                     </h4>

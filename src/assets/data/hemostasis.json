@@ -109,7 +109,7 @@
   "subTitle": "Reactivos Hemosil",
   "reactivosDescription": "El panel de pruebas de Hemostasia automatizadas más completo, con reactivos HemosIL líquidos listos para usar, ofrece resultados rápidos y precisos para patologías hemorrágicas y trombóticas. Esto mejora la eficacia del laboratorio y la atención al paciente al eliminar el tiempo de reconstitución y el pipeteo manual. Las pruebas HemosIL cubren el 91 % de las pruebas de Hemostasia, incluyendo TP, TTPA, Dímero-D y Antitrombina, y también mejoran la gestión de otras patologías hemorrágicas y trombóticas.",
   "subName": "General Screening and Anticoagulant Monitoring",
-  "typesDescription": "Liquid, ready-to-use format * Not 510(k) cleared, not available in all countries. Consultar disponibilidad",
+  "typesDescription": "💧 Liquid, ready-to-use format * Not 510(k) cleared, not available in all countries. Consultar disponibilidad",
   "categories": [
     {
       "id": 1,
@@ -123,7 +123,7 @@
       "type2": [
         {
           "id": 1,
-          "name": "RecombiPlasTin"
+          "name": "💧 RecombiPlasTin"
         }
       ]
     },
@@ -134,15 +134,15 @@
       "type2": [
         {
           "id": 1,
-          "name": "Synth ASil ®"
+          "name": "💧 Synth ASil ®"
         },
         {
           "id": 2,
-          "name": "SynthAFax ®"
+          "name": "💧 SynthAFax ®"
         },
         {
           "id": 3,
-          "name": "APTT-SP"
+          "name": "💧 APTT-SP"
         }
       ]
     },
@@ -172,7 +172,7 @@
       "type2": [
         {
           "id": 1,
-          "name": "Liquid Anti-Xa (1 stage)"
+          "name": "💧 Liquid Anti-Xa (1 stage)"
         }
       ]
     },
@@ -188,11 +188,11 @@
       "type2": [
         {
           "id": 1,
-          "name": "Rivaroxaban (Liquid Anti-Xa)*"
+          "name": "💧 Rivaroxaban (Liquid Anti-Xa)*"
         },
         {
           "id": 2,
-          "name": "Apixaban (Liquid Anti-Xa)*"
+          "name": "💧 Apixaban (Liquid Anti-Xa)*"
         }
       ]
     },
@@ -216,15 +216,15 @@
       "type2": [
         {
           "id": 1,
-          "name": "D-Dimer HS 500"
+          "name": "💧 D-Dimer HS 500"
         },
         {
           "id": 2,
-          "name": "D-Dimer HS 2000*"
+          "name": "💧 D-Dimer HS 2000*"
         },
         {
           "id": 3,
-          "name": "AcuStar D-Dimer"
+          "name": "💧 AcuStar D-Dimer"
         }
       ]
     },
@@ -248,23 +248,23 @@
       "type2": [
         {
           "id": 1,
-          "name": "Silica Clotting Time"
+          "name": "💧 Silica Clotting Time"
         },
         {
           "id": 2,
-          "name": "AcuStar aCL IgG"
+          "name": "💧 AcuStar aCL IgG"
         },
         {
           "id": 3,
-          "name": "AcuStar aCL IgM"
+          "name": "💧 AcuStar aCL IgM"
         },
         {
           "id": 4,
-          "name": "AcuStar aβ2GPI IgG"
+          "name": "💧 AcuStar aβ2GPI IgG"
         },
         {
           "id": 5,
-          "name": "AcuStar aβ2GPI IgM"
+          "name": "💧 AcuStar aβ2GPI IgM"
         }
       ]
     },
@@ -275,11 +275,11 @@
       "type2": [
         {
           "id": 1,
-          "name": "HIT-Ab(PF4-H)"
+          "name": "💧 HIT-Ab(PF4-H)"
         },
         {
           "id": 2,
-          "name": "AcuStar HIT-IgG(PF4-H)"
+          "name": "💧 AcuStar HIT-IgG(PF4-H)"
         }
       ]
     },
@@ -303,23 +303,23 @@
       "type2": [
         {
           "id": 1,
-          "name": "VWF Antigen"
+          "name": "💧 VWF Antigen"
         },
         {
           "id": 2,
-          "name": "VWF Ristocetin Cofactor"
+          "name": "💧 VWF Ristocetin Cofactor"
         },
         {
           "id": 3,
-          "name": "AcuStar VWF Antigen*"
+          "name": "💧 AcuStar VWF Antigen*"
         },
         {
           "id": 4,
-          "name": "AcuStar Ristocetin"
+          "name": "💧 AcuStar Ristocetin"
         },
         {
           "id": 5,
-          "name": "AcuStar VWF CB*"
+          "name": "💧 AcuStar VWF CB*"
         }
       ]
     },
@@ -339,7 +339,7 @@
       "type2": [
         {
           "id": 1,
-          "name": "FDP*"
+          "name": "💧 FDP*"
         }
       ]
     },
@@ -375,11 +375,11 @@
       "type2": [
         {
           "id": 1,
-          "name": "Xpert HemosIl® FII & FV"
+          "name": "💧 Xpert HemosIl® FII & FV"
         },
         {
           "id": 2,
-          "name": "Liquid Antithrombin"
+          "name": "💧 Liquid Antithrombin"
         }
       ]
     },
@@ -399,7 +399,7 @@
       "type2": [
         {
           "id": 1,
-          "name": "FXIII Antigen"
+          "name": "💧 FXIII Antigen"
         }
       ]
     },
