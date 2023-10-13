@@ -67,7 +67,7 @@ export function HemostasiaProducts() {
                             <div className='flex items-center justify-center gap-8 flex-wrap'>
                                 {productsCategories.products.map((product) => (
                                     <div key={product.id} className='w-80 md:w-600 flex flex-col md:flex-row gap-6 items-center bg-blue-800/30 border-blue-600 border-2 rounded p-8'>
-                                        <div className='w-full md:1/2 h-60 rounded-md border'>
+                                        <div className='w-full md:w-1/2 h-60 rounded-md border'>
                                             <img src={product.image.url} alt={product.image.alt} className='w-full h-full object-center rounded-md bg-white' />
                                         </div>
 

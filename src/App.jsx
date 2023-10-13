@@ -3,6 +3,7 @@ import './App.css'
 import { HomePage } from './pages/homePage'
 import { HemostasiaPage } from './pages/hemostasiaPage'
 import { MicroscopiosPage } from './pages/microscopiosPage'
+import { CuidadosCriticosPage } from './pages/cuidadosCriticosPage'
 import { AboutUsPage } from './pages/aboutUsPage'
 import { WorkWithUsPage } from './pages/workWithUsPage'
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/hemostasia" element={<HemostasiaPage />} />
         <Route path="/microscopios" element={<MicroscopiosPage />} />
+        <Route path="/cuidados-criticos" element={<CuidadosCriticosPage />} />
         <Route path="/empresa" element={<AboutUsPage />} />
         <Route path="/trabaja-con-nosotros" element={<WorkWithUsPage />} />
       </Routes>

@@ -41,6 +41,11 @@ export function Navbar({ isNavbarVisible, opened, toggle, label }) {
                                     Microscopios
                                 </Link>
                             </Menu.Item>
+                            <Menu.Item className='text-base text-center font-bold hover:underline hover:decoration-blue-800 text-blue-800 transition-all duration-150'>
+                                <Link to="/cuidados-criticos">
+                                    Cuidados Críticos
+                                </Link>
+                            </Menu.Item>
 
                             <Menu.Divider />
 

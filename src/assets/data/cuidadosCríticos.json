@@ -1,0 +1,126 @@
+{
+  "title": "Cuidados Críticos",
+  "description": "WM Argentina ofrece la línea de productos de análisis completa e integrada para sangre total ofreciendo al personal de laboratorio y a los médicos a lograr mejores resultados, reducir el costo total de la atención, asegurar el cumplimiento normativo y mejorar la eficiencia operativa en escenarios hospitalarios de cuidados intensivos. Nuestras soluciones diagnósticas de Cuidados Criticos abordan los desafíos actuales de la atención médica mejorando la eficiencia y la atención al paciente. Ofrecemos soluciones diagnósticas in vitro de calidad más avanzada tanto para el análisis en el punto de atención como en el laboratorio. Nuestra línea completa e integrada de diagnóstico para Cuidados Criticos incluye la familia de gasometría, con las líneas de productos GEM Premier y Avoximeter así como la familia de hemostasia en sangre total, Hemochron.  Desde los quirófanos de cirugía cardiovascular y laboratorios de cateterización a las unidades de cuidados intensivos y servicios de urgencias, nuestras soluciones diagnósticas para medicina intensiva abordan los desafíos actuales de la atención médica mejorando la eficiencia y la atención al paciente.",
+  "image": {
+    "url": "/cuidadosCriticos/headerImg.jpg",
+    "alt": "Muestras de sangre sobre una mesa"
+  },
+  "productsCategories": [
+    {
+      "id": 1,
+      "name": "Sistemas de Gasometría",
+      "description": "",
+      "products": [
+        {
+          "id": 1,
+          "name": "GEM 5000",
+          "description": "El nuevo sistema de análisis de gasometría en sangre total* GEM Premier 5000 proporciona garantía de calidad automatizada con cada muestra.  Ahora con el sistema de gestión de calidad inteligente (iQM2) (iQM2) de nueva generación, que incluye la nueva tecnología IntraSpect™, se detectan posibles errores no solo antes y después, sino también durante el análisis de la muestra, junto con la corrección y documentación en tiempo real.  Además, es sencillo ya que solo es necesario cambiar el cartucho GEM PAK multifunción una vez al mes.  Por tanto, independientemente de la ubicación del análisis o del operador en el punto de atención, la calidad de los resultados y el cumplimiento están asegurados con cada muestra con el sistema GEM Premier 5000 portátil. Asegurando la calidad antes, durante y después del análisis de la muestra - para mejorar la atención al paciente.",
+          "image": {
+            "url": "/cuidadosCriticos/sistemasDeGasometria/GEM 5000.png",
+            "alt": "GEM 5000"
+          },
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/acute-care-diagnostics/gem-premier-5000"
+        },
+        {
+          "id": 2,
+          "name": "GEM 3500",
+          "description": "GEM® Premier™ 3500 con gestión de calidad inteligente (iQM) ofrece un análisis de pruebas con una simplicidad, flexibilidad y fiabilidad sin precedentes, en un sistema totalmente adaptable a las necesidades y el volumen de cualquier ubicación de las áreas clínicas o laboratorio de diagnóstico inmediato. El cartucho GEM PAK multiuso desechable y la pantalla táctil intuitiva proporcionan simplicidad y cero mantenimiento.  Una amplia posibilidad de configuración del tipo de muestra, el escáner de códigos de barras y múltiples formatos de cartucho con diferente menú de pruebas ofrecen un diagnóstico rápido, fácil y eficaz. Máxima seguridad en los diagnósticos de medicina intensiva.",
+          "image": {
+            "url": "/cuidadosCriticos/sistemasDeGasometria/GEM 3500.png",
+            "alt": "GEM 3500"
+          },
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/acute-care-diagnostics/gem-premier-3500"
+        },
+        {
+          "id": 3,
+          "name": "GEM 3000",
+          "description": "El sistema GEM® Premier™ 3000 con gestión de calidad inteligente (iQM) simplifica y estandariza los análisis de sangre total a la vez que proporciona resultados de calidad rápidos en el laboratorio o en el punto de atención. El método de referencia en Acute Care.",
+          "image": {
+            "url": "/cuidadosCriticos/sistemasDeGasometria/GEM 3000.png",
+            "alt": "GEM 3000"
+          },
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/acute-care-diagnostics/gem-premier-3000"
+        },
+        {
+          "id": 4,
+          "name": "GEM Premier chemSTAT",
+          "description": "Presentamos el GEM® Premier™ ChemSTAT, un analizador rápido de sangre total del perfil metabólico básico (PMB) con un menú personalizado para el departamento de urgencias, que incluye resultados de creatinina con calidad de laboratorio. La conectividad avanzada con Sistema de gestión de calidad inteligente (iQM) garantiza la sencillez en el punto de atención y un tiempo acelerado para el triaje y el tratamiento. GEMweb Plus 500 Custom Connectivity simplifica y centraliza la gestión de las pruebas en el POCT. Perfil Metabólico Básico. Análisis inmediato.",
+          "image": {
+            "url": "/cuidadosCriticos/sistemasDeGasometria/GEM Premier chemSTAT.png",
+            "alt": "GEM Premier chemSTAT"
+          },
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/acute-care-diagnostics/gem-premier-chemstat"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gestión de Calidad Inteligente",
+      "description": "",
+      "products": [
+        {
+          "id": 1,
+          "name": "IQM 2",
+          "description": "El nuevo iQM®2 con tecnología IntraSpect™ proporciona un análisis inteligente: garantía de calidad automatizada con cada muestra, de manera continua y en tiempo real, a diferencia del CC ofrecido tradicionalmente (automático o manual).  El tiempo de detección de errores se reduce de horas a minutos y los errores se corrigen y documentan automáticamente para obtener una imagen de calidad completa. Integrado en el sistema GEM Premier 5000, iQM2 garantiza la calidad antes, durante y después del análisis de la muestra, para mejorar la atención al paciente y la eficacia. Garantía de calidad en tiempo real, en cualquier parte.",
+          "image": {
+            "url": "/cuidadosCriticos/gestionDeCalidadInteligente/IQM 2.png",
+            "alt": "IQM 2"
+          },
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/acute-care-diagnostics/iqm2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Soluciones IT",
+      "description": "",
+      "products": [
+        {
+          "id": 1,
+          "name": "GEM WEB PLUS 500",
+          "description": "GEMweb Plus 500 Custom Connectivity  es una solución de gestión de datos, diseñada para simplificar la supervisión del operador, la gestión de la calidad y una completa trazabilidad, todo ello a partir de una única interfaz, independientemente de si se accede desde el laboratorio central, en el punto de atención o mediante acceso remoto desde un analizador, PC o tableta. Simplifica y centraliza las operaciones de análisis en el punto de atención.",
+          "image": {
+            "url": "/cuidadosCriticos/solucionesIt/GEM WEB PLUS 500.png",
+            "alt": "GEM WEB PLUS 500"
+          },
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/acute-care-diagnostics/conectividad-personalizada-gemweb-plus-500"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Prueba de Hemostasia en Sangre Total",
+      "description": "",
+      "products": [
+        {
+          "id": 1,
+          "name": "Hemochron",
+          "description": "Para un análisis rápido de sangre total desde el quirófano de cirugía cardiovascular al laboratorio de cateterización, el sistema Hemochron Signature Elite estandariza las pruebas ACT+, ACT-LR, PT y APTT en el punto de atención.  Resultados rápidos, precisos y reproducibles para la toma de decisiones sobre el tratamiento del paciente en escenarios de medicina intensiva. Resultados precisos en cualquier contexto clínico.",
+          "image": {
+            "url": "/cuidadosCriticos/pruebaDeHemostasiaEnSangreTotal/Hemochron.png",
+            "alt": "Hemochron"
+          },
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/hemostasia/hemochron-signature-elite"
+        },
+        {
+          "id": 2,
+          "name": "GEM Hemochron 100",
+          "description": "El sistema de hemostasia de sangre total GEM® Hemochron™ 100 ofrece resultados de calidad para controlar y guiar la terapia con heparina no fraccionada durante los procedimientos cardiovasculares, incluida la ablación cardíaca y la oxigenación por membrana extracorpórea. Aprovechando la tecnología Hemochron, el sistema ayuda a mejorar el flujo de trabajo y la calidad de la atención. La tecnología sencilla basada en cartuchos reduce el mantenimiento y la capacitación de las instalaciones para una mayor eficiencia. En quien confiar cuando los segundos cuentan.",
+          "image": {
+            "url": "/cuidadosCriticos/pruebaDeHemostasiaEnSangreTotal/GEM Hemochron 100.png",
+            "alt": "GEM Hemochron 100"
+          },
+          "technicalSheet": "",
+          "moreInformationUrl": "https://www.werfen.com/es/es/gem-hemochron-100"
+        }
+      ]
+    }
+  ]
+}
